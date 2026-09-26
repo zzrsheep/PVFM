@@ -1,0 +1,58 @@
+{
+  "note": "Observed 2026-09-26; not proof these environments are unchanged since historical experiments.",
+  "environments": {
+    "python_3.11": {
+      "scikit-base": "0.12.6",
+      "pandas": "2.3.3",
+      "matplotlib": "3.10.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.7.2",
+      "sktime": "0.38.5",
+      "safetensors": "0.7.0",
+      "accelerate": "1.12.0",
+      "transformers": "4.57.3",
+      "datasets": "4.4.2",
+      "einops": "0.8.1",
+      "chronos-forecasting": "2.2.2",
+      "reformer-pytorch": "1.4.4",
+      "timesfm": "3.0.1",
+      "huggingface_hub": "0.36.1",
+      "torch": "2.6.0+cu124",
+      "numpy": "2.3.5",
+      "citras-fm": "3.0.0"
+    },
+    "moirai_env": {
+      "torch": "2.4.1",
+      "safetensors": "0.7.0",
+      "einops": "0.7.0",
+      "scipy": "1.11.4",
+      "pandas": "2.3.3",
+      "gluonts": "0.14.4",
+      "huggingface-hub": "0.34.4",
+      "datasets": "4.4.1",
+      "uni2ts": "2.0.0",
+      "matplotlib": "3.10.8",
+      "transformers": "4.57.1",
+      "numpy": "1.26.4",
+      "scikit-learn": "1.7.2",
+      "accelerate": "1.13.0",
+      "chronos-forecasting": "2.2.2"
+    },
+    "fev": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "pandas": "2.3.3",
+      "huggingface_hub": "1.23.0",
+      "datasets": "4.8.5",
+      "fev": "0.9.0",
+      "einops": "0.8.2",
+      "tabpfn": "8.0.8",
+      "gluonts": "0.16.3",
+      "scikit-learn": "1.6.1",
+      "torch": "2.13.0",
+      "safetensors": "0.8.0",
+      "tabpfn_time_series": "1.1.0",
+      "matplotlib": "3.10.9"
+    }
+  }
+}

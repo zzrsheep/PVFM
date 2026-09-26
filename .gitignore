@@ -1,0 +1,19 @@
+# Local experiments and large release assets are deliberately not ordinary Git files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipc/
+.venv/
+.env
+.env.*
+outputs/
+dist/
+_build/
+validation/runs/
+checkpoints/*.pt
+checkpoints/*.pth
+datasets/australia/
+datasets/australia_evaluation/*.npz
+datasets/australia_holdout_evaluation/*.npz
+verification/*_tmp/
+verification/relocated_*/

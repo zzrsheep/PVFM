@@ -1,0 +1,2 @@
+collection,topology_type,region,source_region,station_id,station_name,station_dir,pv_file,time_col,target_col,granularity,lat,lon,source_type,original_station_dir
+organized_by_topology_region_ascii_standardized,1_centralized,Australia,Australia,电站0-0085,Stubbo Solar Farm 1,1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1,pv_semantic_repaired_1h.csv,datetime,power,1h,-32.26264,149.60102,australia_176,1_centralized/Australia/station0-0085__Stubbo_Solar_Farm_1

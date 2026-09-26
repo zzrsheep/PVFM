@@ -1,0 +1,2219 @@
+{
+  "format_version": 1,
+  "records": [
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/pvfm_27e411fe3e4b6033bd9e_1h_C24_H6.npz",
+      "sha256": "14e23088f103e71a45ab11501cb1478a1c1e8f58e1f6387fe6d7edcfb16c5eb9"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/fullshot_27e411fe3e4b6033bd9e_1h_C24_H6.npz",
+      "sha256": "922fb48c6099592051e19d5039d13dd66c26e45bc6f7f10cf805d2c9de332798"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/pvfm_ee5f002643ca63fb91a3_1h_C24_H6.npz",
+      "sha256": "bf730a2fa47af2267f5ea5b440f99342b1eaae246ec135336a190026857898fd"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/fullshot_ee5f002643ca63fb91a3_1h_C24_H6.npz",
+      "sha256": "3d84f2b03b88bcb9741b7b2701d92b58f13c16d8de4ea91a3887d68d1eaa3e87"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/pvfm_3a66f3293460428f0b87_1h_C24_H6.npz",
+      "sha256": "0dc8831a996abf2f22187970f1aa195dec4ac554ce0918396df8aeddd668e2df"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/fullshot_3a66f3293460428f0b87_1h_C24_H6.npz",
+      "sha256": "295f786c7f85683602f010a23b5f1ed227a3140a248456bd77a796c21f8d5725"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/pvfm_1ac15565ecbb9185ad29_1h_C24_H6.npz",
+      "sha256": "75b6fb53b54ce07860714f04cb1bf6af7f6227a21315c73e8e08e1220227c024"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/fullshot_1ac15565ecbb9185ad29_1h_C24_H6.npz",
+      "sha256": "f2c6fdf0e8ca7c43eb9ba249e15ec0f972de4d7205dc986f146c3c26fa26a5f2"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/pvfm_1b40f6256ef5814d8aad_1h_C24_H6.npz",
+      "sha256": "35d53893ecb2986fae2e6c412bc18e5b4a0c18d4379bdfaf101362868faa0947"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/fullshot_1b40f6256ef5814d8aad_1h_C24_H6.npz",
+      "sha256": "ba932f78a4adb83b7b8f2e71ce258573331a259544545bcca131ec2a075c9ac8"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/pvfm_1489dec5d9dfe3b5571b_1h_C24_H6.npz",
+      "sha256": "f0aaabbf8fe753172ca4f4c22e2c8ffe6b608055e9b11b5f43fdec1a6f4a4470"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/fullshot_1489dec5d9dfe3b5571b_1h_C24_H6.npz",
+      "sha256": "28f84592a865724604476df2fb517575c26a506ab474f917057665ba78383da8"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 370,
+      "file": "datasets/australia_evaluation/pvfm_f434daad671ed9bd9f31_1h_C24_H6.npz",
+      "sha256": "62c6fd9effff11633389274f67dc43a5eb6a3170a6ce647fa43283b9c5ca09c8"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 370,
+      "file": "datasets/australia_evaluation/fullshot_f434daad671ed9bd9f31_1h_C24_H6.npz",
+      "sha256": "452ba49608d0e7baae2c932926944dc8326af01826806a4f14e0b4b30d7653b3"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 304,
+      "file": "datasets/australia_evaluation/pvfm_53ea876cffa2116bf500_1h_C24_H6.npz",
+      "sha256": "d8fcd9eaf9dec65df1b1e4004e7d8779526ed845030bd447278c382a5e775277"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 304,
+      "file": "datasets/australia_evaluation/fullshot_53ea876cffa2116bf500_1h_C24_H6.npz",
+      "sha256": "c4aa4f071278483b022a3bb73cc04691ae0134fbddb680304199becd8ffa713d"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/pvfm_c2ab40d83a9558c5fa75_1h_C24_H6.npz",
+      "sha256": "584b633ec7adaf74a3dec1db58b1e315f1eff1cc3e48e96d2827e45a2648ee19"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 435,
+      "file": "datasets/australia_evaluation/fullshot_c2ab40d83a9558c5fa75_1h_C24_H6.npz",
+      "sha256": "c5bf148f95db740bfccfb28b65aa449f28dda131966fe90fa846b93c04d1ebe5"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 304,
+      "file": "datasets/australia_evaluation/pvfm_865084ec82225368538f_1h_C24_H6.npz",
+      "sha256": "d3c5a683a1444328b223413fb21639cb3b88132761ceddbde7b8b888db45b4c1"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 304,
+      "file": "datasets/australia_evaluation/fullshot_865084ec82225368538f_1h_C24_H6.npz",
+      "sha256": "d770a0e401c72af7e02eb672f0da925e2774444d3803dede98c8ede9b21b09c8"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/pvfm_02f6930bf40fc15d05d8_1h_C24_H6.npz",
+      "sha256": "9dcc9d6490922bd26e212aede14feba4d9529c5a9904c92d81ee42ac5a08fc55"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C24_H6",
+      "resolution": "1h",
+      "C": 24,
+      "H": 6,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 439,
+      "file": "datasets/australia_evaluation/fullshot_02f6930bf40fc15d05d8_1h_C24_H6.npz",
+      "sha256": "9bba481f14aa392bac38d2b468c575d7b4f4b57b144a0f88a599f0459d87bac9"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/pvfm_27e411fe3e4b6033bd9e_1h_C72_H24.npz",
+      "sha256": "519646d55c89255cb20336b97ad3873db9329cdba4751a66a2fab6bba1444081"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/fullshot_27e411fe3e4b6033bd9e_1h_C72_H24.npz",
+      "sha256": "11b1e5188bc1d7cb6d515625de079bdc77f11daa005d656507eb6a365f33e668"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/pvfm_ee5f002643ca63fb91a3_1h_C72_H24.npz",
+      "sha256": "526f755dcf956eac8ec5764309c94a16882e4c20c371de3edd54b43cc80420cb"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/fullshot_ee5f002643ca63fb91a3_1h_C72_H24.npz",
+      "sha256": "1491ca54cb065fcaaa2436a9c975c5e47e02aaf2c79f737042c54315ac918538"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/pvfm_3a66f3293460428f0b87_1h_C72_H24.npz",
+      "sha256": "faf66471582a4d7205d613c580586464e88ed7e2cd0ae36f0c338c8a7127c094"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/fullshot_3a66f3293460428f0b87_1h_C72_H24.npz",
+      "sha256": "05720560e1852f503a8b7a53a42b0937fec651b010effc86c316d8e3fd20507e"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/pvfm_1ac15565ecbb9185ad29_1h_C72_H24.npz",
+      "sha256": "3f651e346cc13ad63390e0a7589580048a99ccab38c7b14beeef7ea1bc4df05d"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/fullshot_1ac15565ecbb9185ad29_1h_C72_H24.npz",
+      "sha256": "c0374d38934b4b6d86a5daaf5980ae76d09771d85ef600b542f8a9aed22937f6"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/pvfm_1b40f6256ef5814d8aad_1h_C72_H24.npz",
+      "sha256": "63e854f54faf206680d61b3ff5fe967fc28d0953843f6d88276fcc599368daae"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/fullshot_1b40f6256ef5814d8aad_1h_C72_H24.npz",
+      "sha256": "a6f0e34e2834fbfc2e731d0cef57c23efc6941707b65c06f174ecd766e16c0d0"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/pvfm_1489dec5d9dfe3b5571b_1h_C72_H24.npz",
+      "sha256": "9bf8f0cf11ea6430e2a44479651fe09f547f51fea291e3d4889f9b4a4f7b805b"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/fullshot_1489dec5d9dfe3b5571b_1h_C72_H24.npz",
+      "sha256": "efdd9fd0edf8d57863f6e30a9e3cbb7cd011a312b5fb132f00d233cc20afd0b0"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 292,
+      "file": "datasets/australia_evaluation/pvfm_f434daad671ed9bd9f31_1h_C72_H24.npz",
+      "sha256": "2554a2141a8f55dafe41a2b68b173e830b8e37d2bf44accfe0a01c6132636fb0"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 292,
+      "file": "datasets/australia_evaluation/fullshot_f434daad671ed9bd9f31_1h_C72_H24.npz",
+      "sha256": "aa7d2fd03d5e5f53f70ae3a6d2374fae42ee896491c0122100b8ceae70b5efd7"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 301,
+      "file": "datasets/australia_evaluation/pvfm_53ea876cffa2116bf500_1h_C72_H24.npz",
+      "sha256": "f7f28b721715d0513514683d568ca82d231ab95b690e227602024e970a7dd35a"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 301,
+      "file": "datasets/australia_evaluation/fullshot_53ea876cffa2116bf500_1h_C72_H24.npz",
+      "sha256": "07527e9bf27787e2b501f86377c031eec0a749f252d9950540dc260eea132504"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/pvfm_c2ab40d83a9558c5fa75_1h_C72_H24.npz",
+      "sha256": "e7e18dfe39685e5b73c4a4004d39b20dc6cc56711655a35eeac21a7c1c332ff5"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 424,
+      "file": "datasets/australia_evaluation/fullshot_c2ab40d83a9558c5fa75_1h_C72_H24.npz",
+      "sha256": "126eece0e8eb976f7dcd288d29fbe74e40c56cba2eb790831d984fe4f346d747"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 301,
+      "file": "datasets/australia_evaluation/pvfm_865084ec82225368538f_1h_C72_H24.npz",
+      "sha256": "5a1cf63f40ab1f7b7388b43880a4272aa7505b7c6e0292c71a031312d4b08cb8"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 301,
+      "file": "datasets/australia_evaluation/fullshot_865084ec82225368538f_1h_C72_H24.npz",
+      "sha256": "27d1fea6df608fce40f67d7f39dbc437bc5d088be2b34cc66689aa8d93816bdb"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/pvfm_02f6930bf40fc15d05d8_1h_C72_H24.npz",
+      "sha256": "0e88e92fb5f029b18dde90f84974edaaf46b9e659756aa32e355daba7f91eb96"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C72_H24",
+      "resolution": "1h",
+      "C": 72,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 436,
+      "file": "datasets/australia_evaluation/fullshot_02f6930bf40fc15d05d8_1h_C72_H24.npz",
+      "sha256": "52ec0555664b0d03028f719e5b6643e0c9d24273f85b8e931dbf0825fb41bd96"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/pvfm_27e411fe3e4b6033bd9e_1h_C336_H168.npz",
+      "sha256": "86a360d993ee276f0277f9820f2712a396808e85b04139ced3dcf137336ed518"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/fullshot_27e411fe3e4b6033bd9e_1h_C336_H168.npz",
+      "sha256": "0ad4f9acc5412248073f8d849f238fc4445ed8fb7c0c384dbb5499d81b5fb01e"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/pvfm_ee5f002643ca63fb91a3_1h_C336_H168.npz",
+      "sha256": "8da7a9943d092f3e04105eb315f61b5efa26278367e1691f170051c3430ad646"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/fullshot_ee5f002643ca63fb91a3_1h_C336_H168.npz",
+      "sha256": "ec9bf12bc35f25e897182bdc7eb20595d0ed8d65d206f9ef71865aa8d9cca5db"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/pvfm_3a66f3293460428f0b87_1h_C336_H168.npz",
+      "sha256": "4e3f423c452d68e5767feb98b8ec02af3c057e361e3c76251ede89700b4d1cbd"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/fullshot_3a66f3293460428f0b87_1h_C336_H168.npz",
+      "sha256": "3fb81eed743bb693c65be7781bbe6a9a92b3e81b3e56740eb5816a2aadee1358"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/pvfm_1ac15565ecbb9185ad29_1h_C336_H168.npz",
+      "sha256": "2cea9bbca77780df08490b200a1feab116325ea49e3249f12f55da7f3f2d0b29"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/fullshot_1ac15565ecbb9185ad29_1h_C336_H168.npz",
+      "sha256": "54fc69f106098bbca7b5b5395b1d34336865dc390da5ab95e1033118eaaa4ee9"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/pvfm_1b40f6256ef5814d8aad_1h_C336_H168.npz",
+      "sha256": "e2ce440fbc065d815d6a613de3ee185c8d8661707e29336945946bb24ada04f4"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/fullshot_1b40f6256ef5814d8aad_1h_C336_H168.npz",
+      "sha256": "0dfb43f0e5494b498b997bbc4b83bb2e6126e95ab4a2e29f8698474d27ad44cd"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/pvfm_1489dec5d9dfe3b5571b_1h_C336_H168.npz",
+      "sha256": "db62fb40cd039627ece781f8dbf68fe510d358a34b99df276fb4cbe93cc24927"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/fullshot_1489dec5d9dfe3b5571b_1h_C336_H168.npz",
+      "sha256": "8691350ddf2deafa7f07d44169ec48af74be119b2684e507aee69fa7d92e0b62"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 111,
+      "file": "datasets/australia_evaluation/pvfm_f434daad671ed9bd9f31_1h_C336_H168.npz",
+      "sha256": "fd3bf789516353569c2a57af2174c821eef6be2d114b04c65ed5d4f7c437e095"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 111,
+      "file": "datasets/australia_evaluation/fullshot_f434daad671ed9bd9f31_1h_C336_H168.npz",
+      "sha256": "7aa3f8ff1a7ca2eb4acb462d0af54cda613d9cf216cebfc2467f8834928bafbd"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 268,
+      "file": "datasets/australia_evaluation/pvfm_53ea876cffa2116bf500_1h_C336_H168.npz",
+      "sha256": "8467448e77fb1a5d08f59b4519b4dced93fa79ebfa786ba07a49556ff129bd15"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 268,
+      "file": "datasets/australia_evaluation/fullshot_53ea876cffa2116bf500_1h_C336_H168.npz",
+      "sha256": "d5c755c321556c9bfb291e9ae6e6c89349758a65c13eb16e909ad3ed4bb338bc"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/pvfm_c2ab40d83a9558c5fa75_1h_C336_H168.npz",
+      "sha256": "231f55b5de8e6b205c05ac7dc706cbe23d3ea1d565d0095585ac1a1f43d6881f"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 356,
+      "file": "datasets/australia_evaluation/fullshot_c2ab40d83a9558c5fa75_1h_C336_H168.npz",
+      "sha256": "81974520b03c63b59d57e301a41e4453306299ee36136d17a45a550e71cd538e"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 268,
+      "file": "datasets/australia_evaluation/pvfm_865084ec82225368538f_1h_C336_H168.npz",
+      "sha256": "4dab59a464d219bc2424e6648310222406de9df775e1b6415e6f36485dfc5864"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 268,
+      "file": "datasets/australia_evaluation/fullshot_865084ec82225368538f_1h_C336_H168.npz",
+      "sha256": "2c7d10f2c56b449a0430abcad30dfdd7fdba2158a8d920c73de55435676de035"
+    },
+    {
+      "role": "pvfm",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/pvfm_02f6930bf40fc15d05d8_1h_C336_H168.npz",
+      "sha256": "59d0432a8bae2c80ad048661ff3624de82e9e178c79699ee77388d70418b5b50"
+    },
+    {
+      "role": "fullshot",
+      "task": "1h_C336_H168",
+      "resolution": "1h",
+      "C": 336,
+      "H": 168,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 412,
+      "file": "datasets/australia_evaluation/fullshot_02f6930bf40fc15d05d8_1h_C336_H168.npz",
+      "sha256": "16446557715fd024e1045d1409fdb6c19a1121714978f6c7e7ebdd318e857bbc"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/pvfm_27e411fe3e4b6033bd9e_15min_C64_H16.npz",
+      "sha256": "2eedc9ec9d5f70c28e953ec79e5409721bf7e8483bdeb7be5c597fe550caf181"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/fullshot_27e411fe3e4b6033bd9e_15min_C64_H16.npz",
+      "sha256": "4b880044e8a35437757b66beaa0d39c360ace20ae9e73111a116805570065dfc"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/pvfm_ee5f002643ca63fb91a3_15min_C64_H16.npz",
+      "sha256": "0ecff4c2293d4100b56bb81c607f70a6cfefb8c10c262157ac549f9aa7adf708"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/fullshot_ee5f002643ca63fb91a3_15min_C64_H16.npz",
+      "sha256": "3a73607d2408a24de3abb810aeb3fb24f0c444455466e8eee60fdc4adcd0c92b"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/pvfm_3a66f3293460428f0b87_15min_C64_H16.npz",
+      "sha256": "31ec18c2ba7f0c1445c236181b4db381b2f0414a7750245a2ec1cf395b76bb35"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/fullshot_3a66f3293460428f0b87_15min_C64_H16.npz",
+      "sha256": "979ec07b9a000fbc6b8ced0814b8b0cd972a8c891d4ed07800a0e3745a29cafe"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/pvfm_1ac15565ecbb9185ad29_15min_C64_H16.npz",
+      "sha256": "8567520f5b3a9b56e4d1caedf4b33ea2cfd3fd68fd5e6e2781bba28f408fcf7e"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/fullshot_1ac15565ecbb9185ad29_15min_C64_H16.npz",
+      "sha256": "73791280409df5f08ef5fb63630f0186e7a1fd8e3e0878714c42ccd773961876"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/pvfm_1b40f6256ef5814d8aad_15min_C64_H16.npz",
+      "sha256": "bb9c9b86c27f6da0845e1d14cd1083e093d780499a095d78544c894aa0524a99"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/fullshot_1b40f6256ef5814d8aad_15min_C64_H16.npz",
+      "sha256": "41a3e3b624b62587be16e074555f513b20e98c964d313a713292626054c9907f"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/pvfm_1489dec5d9dfe3b5571b_15min_C64_H16.npz",
+      "sha256": "ad5b217ef99a0432335f5679a5f01b814eddf60bc4a86a74f322dd0228122aa3"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/fullshot_1489dec5d9dfe3b5571b_15min_C64_H16.npz",
+      "sha256": "5b28da48b00350170b592dcc0441e7ecd89ec3a7077e84420c8835d4951f3ec0"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1967,
+      "file": "datasets/australia_evaluation/pvfm_f434daad671ed9bd9f31_15min_C64_H16.npz",
+      "sha256": "782e2d225fbdce90afd79300f7b52f86ce3fecd48cf5ce9c716b271bd770a244"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1967,
+      "file": "datasets/australia_evaluation/fullshot_f434daad671ed9bd9f31_15min_C64_H16.npz",
+      "sha256": "d3ec16c2e04d15992d7ba9bc5ddacd4f43af2edef09d7d816b98a0c1191961dd"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1821,
+      "file": "datasets/australia_evaluation/pvfm_53ea876cffa2116bf500_15min_C64_H16.npz",
+      "sha256": "13abba283f38e40f974028d108941969d987c6e7a0de33607454cc1c18138502"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1821,
+      "file": "datasets/australia_evaluation/fullshot_53ea876cffa2116bf500_15min_C64_H16.npz",
+      "sha256": "e056aa2eda416791f1fd14d5c0bf0ee328d3b0dca94d1740adbcb8e33c7a6ae7"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/pvfm_c2ab40d83a9558c5fa75_15min_C64_H16.npz",
+      "sha256": "5cdb299fd1ce2139a301c7febe2c4f26e95e54511aad292945388ce75c3a5444"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2615,
+      "file": "datasets/australia_evaluation/fullshot_c2ab40d83a9558c5fa75_15min_C64_H16.npz",
+      "sha256": "f993770f679d6852d8554f30563a39160ba9c034bb7d2a96e080bf641df9208f"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1821,
+      "file": "datasets/australia_evaluation/pvfm_865084ec82225368538f_15min_C64_H16.npz",
+      "sha256": "54ca6dc242fc7cdb5e0d7c8a2c4ba5dde874adb1b825217ca5f5453b0035b4a9"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1821,
+      "file": "datasets/australia_evaluation/fullshot_865084ec82225368538f_15min_C64_H16.npz",
+      "sha256": "c02bdd6337981e19a7211960ec89317799eaf5b360c611a0273a1f35772a89c9"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/pvfm_02f6930bf40fc15d05d8_15min_C64_H16.npz",
+      "sha256": "2f177e0b035d4d6b50e9d4270902f7712625146d7fb2bf6df60bb1f0c9eabd54"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C64_H16",
+      "resolution": "15min",
+      "C": 64,
+      "H": 16,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2632,
+      "file": "datasets/australia_evaluation/fullshot_02f6930bf40fc15d05d8_15min_C64_H16.npz",
+      "sha256": "eaf7fde71595e48bedc6d70a96a6dc4723c888ed79a767bdaad0711419e07843"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/pvfm_27e411fe3e4b6033bd9e_15min_C96_H24.npz",
+      "sha256": "4c8b32afaec5c34e8d157e57e40944bddf14ae09c299beaebd7c95d8dd051ccd"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "station_key": "27e411fe3e4b6033bd9e",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/fullshot_27e411fe3e4b6033bd9e_15min_C96_H24.npz",
+      "sha256": "73e832582eabc0b16278d20f9665a94b65e7c1c4da57c8ba5473eaadce1c1595"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/pvfm_ee5f002643ca63fb91a3_15min_C96_H24.npz",
+      "sha256": "5f3436caa7ed94fda39d0634a27a93d69c461712b6c362b0d8e1b05e2694a5e7"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "station_key": "ee5f002643ca63fb91a3",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/fullshot_ee5f002643ca63fb91a3_15min_C96_H24.npz",
+      "sha256": "872b0de493862908c06782912b9eeb935eb612249c8fd15853e7d2ab0c3c1b5e"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/pvfm_3a66f3293460428f0b87_15min_C96_H24.npz",
+      "sha256": "a673425ee105031392d8244b9447b16b95c83a393d38db8473ac90b7532f6cb7"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "station_key": "3a66f3293460428f0b87",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/fullshot_3a66f3293460428f0b87_15min_C96_H24.npz",
+      "sha256": "d1dbde2eac6fbf1f774117137306c106daf4d2c4a5a3f0b06f86bcfdd1315a22"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/pvfm_1ac15565ecbb9185ad29_15min_C96_H24.npz",
+      "sha256": "b72a9d4cc9cd56a6b1b148c6d87862cb3ced52b75752a02728d2e78e1a1db353"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "station_key": "1ac15565ecbb9185ad29",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/fullshot_1ac15565ecbb9185ad29_15min_C96_H24.npz",
+      "sha256": "2ba5a7ae5f74789230bd38e99c2f5c52ac89fc48240422e4b7798d161b1d3912"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/pvfm_1b40f6256ef5814d8aad_15min_C96_H24.npz",
+      "sha256": "2e61aa6f6168549ccef058fdc3468031d017921429773b6d79ceb34993503b12"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "station_key": "1b40f6256ef5814d8aad",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/fullshot_1b40f6256ef5814d8aad_15min_C96_H24.npz",
+      "sha256": "21192c36abab9be5d3def63b01f1325ccc3488003ab1285ec7065698411950a8"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/pvfm_1489dec5d9dfe3b5571b_15min_C96_H24.npz",
+      "sha256": "219e7813c5cbfd6d108a63f7f524f021ace413f335a5c95b6f70105ec5e2f4a4"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "station_key": "1489dec5d9dfe3b5571b",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/fullshot_1489dec5d9dfe3b5571b_15min_C96_H24.npz",
+      "sha256": "c2dcea188d2a563626f374446d34818b6d13aa8606fe21b5a3e5293f54e13d27"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1831,
+      "file": "datasets/australia_evaluation/pvfm_f434daad671ed9bd9f31_15min_C96_H24.npz",
+      "sha256": "a6c1f08cfa824c26dd6391014c7edb6c51d1a868941b42578f1fd4cef4d89d14"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "station_key": "f434daad671ed9bd9f31",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1831,
+      "file": "datasets/australia_evaluation/fullshot_f434daad671ed9bd9f31_15min_C96_H24.npz",
+      "sha256": "5aa1bd3db578c06504fbd97670e84de96b0e141e3e5630591d2947c1cb2f2a50"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1819,
+      "file": "datasets/australia_evaluation/pvfm_53ea876cffa2116bf500_15min_C96_H24.npz",
+      "sha256": "f1a4606e2bdbdda67622e7ba8d8f0b33e81d8468d926bca21fb11d57ab1ee3e9"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "station_key": "53ea876cffa2116bf500",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1819,
+      "file": "datasets/australia_evaluation/fullshot_53ea876cffa2116bf500_15min_C96_H24.npz",
+      "sha256": "15511e071afd16b1eaeccd33ba78a79eac7afbd72bd4dee995dabce797a12188"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/pvfm_c2ab40d83a9558c5fa75_15min_C96_H24.npz",
+      "sha256": "78087079d920670657eb60c9203a66aae676ec992ae58d9646cb734095c8cbfd"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "station_key": "c2ab40d83a9558c5fa75",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2605,
+      "file": "datasets/australia_evaluation/fullshot_c2ab40d83a9558c5fa75_15min_C96_H24.npz",
+      "sha256": "5731c2a7d418f98ef19cafaf024c1601bdf1ec656ac3053ccb6d43d57f86fb58"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1819,
+      "file": "datasets/australia_evaluation/pvfm_865084ec82225368538f_15min_C96_H24.npz",
+      "sha256": "7a3a6d6130870c867d58950169e73354700b5a1f73d6e7b4e1ca46108788722f"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "station_key": "865084ec82225368538f",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 1819,
+      "file": "datasets/australia_evaluation/fullshot_865084ec82225368538f_15min_C96_H24.npz",
+      "sha256": "0a5352ddb3945a049e244a5ba3c2172dc13462099f3c87234edd7aed867c78a7"
+    },
+    {
+      "role": "pvfm",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/pvfm_02f6930bf40fc15d05d8_15min_C96_H24.npz",
+      "sha256": "c01406d8b1736a403493f7985e040d5e99bb14a7ec92d5a6dae0b078658999a4"
+    },
+    {
+      "role": "fullshot",
+      "task": "15min_C96_H24",
+      "resolution": "15min",
+      "C": 96,
+      "H": 24,
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "station_key": "02f6930bf40fc15d05d8",
+      "weather_columns": [
+        "temperature_2m",
+        "cloud_cover",
+        "relative_humidity_2m",
+        "surface_pressure",
+        "shortwave_radiation",
+        "wind_speed_10m"
+      ],
+      "windows": 2630,
+      "file": "datasets/australia_evaluation/fullshot_02f6930bf40fc15d05d8_15min_C96_H24.npz",
+      "sha256": "3e87bb45cfcf52b416550d1e58cc01840cbb0dd911f9baf4b3f12940070174d2"
+    }
+  ],
+  "stations": [
+    "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+    "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+    "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+    "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+    "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+    "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+    "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+    "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+    "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+    "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+    "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm"
+  ],
+  "note": "PVFM original cache/replay and external full-shot replay are separate roles; do not silently interchange hourly weather preprocessing."
+}

@@ -1,0 +1,218 @@
+{
+  "id": "6717102f04560b62",
+  "model": "FusionSFNoSpatial",
+  "mode": "none",
+  "task": "1h_short_6h",
+  "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+  "seed": 2023,
+  "options": {
+    "--task_name": [
+      "long_term_forecast"
+    ],
+    "--is_training": [
+      "1"
+    ],
+    "--model_id": [
+      "v2_target_fullshot_Australia_2e9d749f3060__FusionSFNoSpatial__pv_nwp__aligned_qc_caponly"
+    ],
+    "--model": [
+      "FusionSFNoSpatial"
+    ],
+    "--data": [
+      "pv_multires"
+    ],
+    "--root_path": [
+      "{PACKAGE}/datasets/australia/e5cd8d192733"
+    ],
+    "--target": [
+      "power"
+    ],
+    "--freq": [
+      "h"
+    ],
+    "--manifest_path": [
+      "{PACKAGE}/baselines/manifests/1h/Bomen_Solar_Farm.csv"
+    ],
+    "--station_data_root": [
+      "{PACKAGE}/datasets/australia/e5cd8d192733"
+    ],
+    "--station_dir_filter": [
+      "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm"
+    ],
+    "--data_file_name": [
+      "pv_semantic_repaired_1h.csv"
+    ],
+    "--task_spec_name": [
+      "1h_short_6h"
+    ],
+    "--resample_to_1h": [],
+    "--hourly_resample_mode": [
+      "exact"
+    ],
+    "--time_col_override": [
+      "datetime"
+    ],
+    "--target_col_override": [
+      "power"
+    ],
+    "--target_normalization": [
+      "capacity_factor"
+    ],
+    "--metric_space": [
+      "normalized"
+    ],
+    "--sample_nan_ratio_threshold": [
+      "0.0"
+    ],
+    "--min_past_target_valid_ratio": [
+      "1.0"
+    ],
+    "--min_future_target_valid_ratio": [
+      "1.0"
+    ],
+    "--min_history_covariate_valid_ratio": [
+      "1.0"
+    ],
+    "--min_future_covariate_valid_ratio": [
+      "1.0"
+    ],
+    "--enc_in": [
+      "1"
+    ],
+    "--dec_in": [
+      "7"
+    ],
+    "--c_out": [
+      "1"
+    ],
+    "--train_epochs": [
+      "50"
+    ],
+    "--seed": [
+      "2023"
+    ],
+    "--batch_size": [
+      "128"
+    ],
+    "--eval_batch_size": [
+      "128"
+    ],
+    "--learning_rate": [
+      "1e-4"
+    ],
+    "--patience": [
+      "3"
+    ],
+    "--num_workers": [
+      "16"
+    ],
+    "--itr": [
+      "1"
+    ],
+    "--des": [
+      "aligned_qc_caponly_1h"
+    ],
+    "--disable_test_visuals": [],
+    "--gpu": [
+      "0"
+    ],
+    "--enable_station_cache": [],
+    "--features": [
+      "MS"
+    ],
+    "--nwp_mode": [
+      "none"
+    ],
+    "--lradj": [
+      "type1"
+    ],
+    "--eval_sample_stride": [
+      "6"
+    ],
+    "--audit_mode": [
+      "original"
+    ],
+    "--data_qc_version": [
+      "original-aligned-qc"
+    ],
+    "--future_covariate_file_name": [
+      "future_nwp_1h_linear.csv"
+    ],
+    "--future_covariate_time_col": [
+      "datetime"
+    ],
+    "--future_covariate_cols": [
+      "temperature_2m,cloud_cover,relative_humidity_2m,surface_pressure,shortwave_radiation,wind_speed_10m"
+    ],
+    "--future_covariate_align_to_hour": [
+      "none"
+    ],
+    "--fusionsf_ctx_source": [
+      "zeros"
+    ],
+    "--fusionsf_dim": [
+      "64"
+    ],
+    "--fusionsf_depth": [
+      "4"
+    ],
+    "--fusionsf_heads": [
+      "4"
+    ],
+    "--fusionsf_dropout": [
+      "0.3"
+    ],
+    "--fusionsf_ff_mult": [
+      "4"
+    ],
+    "--embed": [
+      "fixed"
+    ],
+    "--fusionsf_nospatial_dim": [
+      "64"
+    ],
+    "--fusionsf_nospatial_depth": [
+      "4"
+    ],
+    "--fusionsf_nospatial_heads": [
+      "4"
+    ],
+    "--fusionsf_nospatial_dropout": [
+      "0.3"
+    ],
+    "--fusionsf_nospatial_mlp_ratio": [
+      "4"
+    ],
+    "--fusionsf_nospatial_dim_head": [
+      "64"
+    ],
+    "--fusionsf_nospatial_decoder_dim": [
+      "128"
+    ],
+    "--fusionsf_nospatial_decoder_depth": [
+      "4"
+    ],
+    "--fusionsf_nospatial_decoder_heads": [
+      "6"
+    ],
+    "--fusionsf_nospatial_decoder_dim_head": [
+      "128"
+    ],
+    "--fusionsf_nospatial_num_mlp_heads": [
+      "9"
+    ],
+    "--disable_fusionsf_vq_in_ts": [],
+    "--save_prediction_points": [],
+    "--quantiles": [
+      "0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9"
+    ],
+    "--quantile_parameterization": [
+      "independent"
+    ],
+    "--quantile_increment_scale": [
+      "0.1"
+    ]
+  },
+  "source_command_sha256": "38ef659a9554dbf97edce9808f62866d5d373cfd0760c59d509751b3a592e37c",
+  "protocol": "protocol_02"
+}

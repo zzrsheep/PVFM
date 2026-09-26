@@ -1,0 +1,2 @@
+collection,topology_type,region,source_region,station_id,station_name,station_dir,pv_file,time_col,target_col,granularity,lat,lon,source_type,original_station_dir,station_key,official_region,native_resolution
+organized_by_topology_region_ascii_standardized,1_centralized,Australia,Australia,电站0-0073,Mugga Lane Solar Park,1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park,pv_native15min_nanpad.csv,datetime,power,15min,-35.3981,149.1494,native15min_nanpad_cache,1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park,f434daad671ed9bd9f31,Australia,5min

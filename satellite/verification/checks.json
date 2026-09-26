@@ -1,0 +1,11 @@
+{
+  "unit_tests_passed": 13,
+  "single_process_cpu_smoke": "4 successful optimizer steps",
+  "resume": "2 + resumed 2 equals uninterrupted 4, entire checkpoint exact",
+  "ddp_cpu_smoke": "2 ranks, 2 successful optimizer steps",
+  "synthetic_evaluation": "ON/OFF complete",
+  "anonymity_scan": "Known personal identifiers and machine paths absent from public content and serialized weight metadata",
+  "original_best_and_step2500_tensors_equal": true,
+  "formal_gpu_training_rerun": false,
+  "private_data_included": false
+}

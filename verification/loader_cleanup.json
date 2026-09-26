@@ -1,0 +1,81 @@
+{
+  "scope": "Full-data average_supply_v1 loader cleanup; no model, weights, baseline or dataset changes",
+  "data": "Synthetic: 16 stations across 8 regions, both resolutions, mask/cadence gaps",
+  "before_python_files": 16,
+  "after_python_files": 11,
+  "before_python_lines": 5668,
+  "after_python_lines": 4594,
+  "cpu_rank_simulation": {
+    "pool_fingerprint": "f00eca3a9a17f0e33c726c7551121cdb0c0d0428c5dfe549c34412e107d81cef",
+    "quality_fingerprint": "d1a9d06dc13b45d9935fab1f08557d98026007cbda9f9b804224e1d7bd84a09f",
+    "profile_fingerprint": "2c1dbbb018f3aeb53709216145cc486b89b8d3aa23edd290cf8ee8aac3f3b6de",
+    "ranks": [
+      {
+        "rank": 0,
+        "batches": 1000,
+        "descriptor_sha256": "9ac7939b65e3099d765120f18ec995a88156037e664c14e6eaa36c7641179498",
+        "batch_sha256": "6afbf3c1aa6f6222c05f5312039fdc48dac89381aa0f91303e024667d3079064",
+        "rejections": {},
+        "repeat_guard": {
+          "scheduled_batches": 1000,
+          "capped_batches": 0,
+          "within_batch_duplicates": 0
+        },
+        "sampler_fingerprint": "22f9d420ef83b0ed9614b3ada4d1225951a6daac7972e972f896768628e80045"
+      },
+      {
+        "rank": 1,
+        "batches": 1000,
+        "descriptor_sha256": "9a0ebb03b95a12bbfe5aa8aaef0c98b3c636cb07416ceee63e3b057ec0fc364e",
+        "batch_sha256": "938a162eeb0fd85c8283c759d636c687b204bcaa5fa37def87b0a369ed1b5429",
+        "rejections": {},
+        "repeat_guard": {
+          "scheduled_batches": 1000,
+          "capped_batches": 0,
+          "within_batch_duplicates": 0
+        },
+        "sampler_fingerprint": "22f9d420ef83b0ed9614b3ada4d1225951a6daac7972e972f896768628e80045"
+      },
+      {
+        "rank": 2,
+        "batches": 1000,
+        "descriptor_sha256": "0196b5997a86983f4044a40fb2237da8830d55bf0a05c72d4f8a8da44adda248",
+        "batch_sha256": "5720a8330d7eac4241675070bb113886c98001ce972c0f39f9c52c9e8017aa8c",
+        "rejections": {},
+        "repeat_guard": {
+          "scheduled_batches": 1000,
+          "capped_batches": 0,
+          "within_batch_duplicates": 0
+        },
+        "sampler_fingerprint": "22f9d420ef83b0ed9614b3ada4d1225951a6daac7972e972f896768628e80045"
+      },
+      {
+        "rank": 3,
+        "batches": 1000,
+        "descriptor_sha256": "f4f75e8b1c037ef6990c07579a46a7ac9cdc68f80b7d8cf9d984770c34149d38",
+        "batch_sha256": "e79be0ae098a58999b13871bedd96cd069b75c08b337d1f177ef9a73f274b7b0",
+        "rejections": {},
+        "repeat_guard": {
+          "scheduled_batches": 1000,
+          "capped_batches": 0,
+          "within_batch_duplicates": 0
+        },
+        "sampler_fingerprint": "22f9d420ef83b0ed9614b3ada4d1225951a6daac7972e972f896768628e80045"
+      }
+    ],
+    "shared_shapes_equal": true
+  },
+  "old_to_new_prefetched_resume_exact": true,
+  "cpu_distributed_before_after_exact": {
+    "backend": "gloo",
+    "ranks": 2,
+    "steps": 20,
+    "shared_shapes_equal": true,
+    "resume_equal": true,
+    "descriptor_sha256": "44c2a535383999b1a675f43e12f01e435600a9db2a649de632e0e2979f66dfe8"
+  },
+  "batch_size_per_simulated_rank": 8,
+  "pretraining_corpus_audited": false,
+  "gpu_training_run": false,
+  "checkpoints_data_and_models_unchanged": true
+}

@@ -1,0 +1,151 @@
+{
+  "station_manifests": 22,
+  "evaluation_window_files": 22,
+  "evaluation_window_rows": 52964,
+  "job_configs_updated": 2500,
+  "removed_station_metadata_columns": [
+    "source_root"
+  ],
+  "window_files_byte_identical": true,
+  "all_remaining_station_fields_identical": true,
+  "model_data_training_settings_changed": false,
+  "window_sha256": {
+    "baselines/eval_windows/15min_C64_H16/Wollar_Solar_Farm.csv": "08d22e0a91046505161cc58273e127ba36eabec4c3ac7e6c388587915f0c9df7",
+    "baselines/eval_windows/15min_C64_H16/Bomen_Solar_Farm.csv": "1100b8bf207164ef08a4c31542d08e4731333774c4caef8ea5d54f5b3baaf150",
+    "baselines/eval_windows/15min_C96_H24/Stubbo_Solar_Farm_1.csv": "1501d31cdf11119220af4022ca7ded981d23e77aca59c6fbb3d8d952ed993c85",
+    "baselines/eval_windows/15min_C64_H16/Karadoc_Solar_Farm.csv": "1c6940c1cd6d4cc222d24f01049e8b2c02b5f2aad018079a576531ffb6c0a03d",
+    "baselines/eval_windows/15min_C96_H24/Woolooga_Solar_Farm.csv": "2cf1c23629289f87a6158616655115a4272235276bdc997bb7312a6092377865",
+    "baselines/eval_windows/15min_C96_H24/Haughton_Solar_Farm_Stage_1.csv": "3954a5b664683a3b9b6e6dcaf14d841fb4bb8a579c6a1406c9992f432f0a3c83",
+    "baselines/eval_windows/15min_C96_H24/Columboola_Solar_Farm.csv": "3bc9ebe98b24cd762fee4dc1d447ef1f943effdd870d6085af13e8d480439c42",
+    "baselines/eval_windows/15min_C96_H24/Wollar_Solar_Farm.csv": "3bfc2c05464c7bb21edd067ab96b1394bea3aaed7f4d9c9b7116801a8e1d64a9",
+    "baselines/eval_windows/15min_C64_H16/Mugga_Lane_Solar_Park.csv": "4839803eb34a02bf76177a63272c74a4c424bd7925451c0e240dcb68e2353fb8",
+    "baselines/eval_windows/15min_C96_H24/Karadoc_Solar_Farm.csv": "49c7828e00a55875f8beb9fadaecdf7867d1b0d21246ae8aca56f86d751fa2d2",
+    "baselines/eval_windows/15min_C96_H24/Gannawarra_Solar_Farm.csv": "4a8314e1c51fc56aca7dee488693af9ada65f8cf9681058ee5ee04a9af3d9def",
+    "baselines/eval_windows/15min_C96_H24/Mugga_Lane_Solar_Park.csv": "5f7793975727c338bb2b3b11c24d0ffd8909314e96556fb5a99a0a6b277e95b1",
+    "baselines/eval_windows/15min_C96_H24/Bomen_Solar_Farm.csv": "66a4e91a6349667fa3cf01080e0d548889d0572447455fc0da8a324da17f9891",
+    "baselines/eval_windows/15min_C96_H24/Wemen_Solar_Farm.csv": "67f4d1dc35492d26bcd3e54d62f70ba84b963ccd5a7a92e1231a17a34733ed08",
+    "baselines/eval_windows/15min_C64_H16/Woolooga_Solar_Farm.csv": "73d7de406efb49a70fa743616dcf12cc4ffc74ef8240575da81bd3e063ca9cdd",
+    "baselines/eval_windows/15min_C64_H16/Stubbo_Solar_Farm_1.csv": "7bc33fcaf082e0012e8b2b0a8db8e77a374022d982d5d1a28b95d129d565dac1",
+    "baselines/eval_windows/15min_C64_H16/Wemen_Solar_Farm.csv": "7be97fd42665bab8f40163425ea92948dd0e6aac02f3710e883eadfefe12bc94",
+    "baselines/eval_windows/15min_C96_H24/Bannerton_Solar_Park.csv": "9b12511220af9b9d1c4b2579095aa72ade7f2ee8ef80a7c6e112886b44dc2680",
+    "baselines/eval_windows/15min_C64_H16/Bannerton_Solar_Park.csv": "ae3b8d8f47d8778c12c7d00276ea014a25e24ec919ff53e2813e937b1ac1e802",
+    "baselines/eval_windows/15min_C64_H16/Gannawarra_Solar_Farm.csv": "bdf27b1bc2d0e0509f2a5a2adf72dce85fc5dccab1d7c0e15c48d5491533ac8a",
+    "baselines/eval_windows/15min_C64_H16/Columboola_Solar_Farm.csv": "ddba353054dd36432069cbfd311d600a0aeaf96b24dfe365df36b14202b2b7d9",
+    "baselines/eval_windows/15min_C64_H16/Haughton_Solar_Farm_Stage_1.csv": "fa09fbb29b91bb78c505d2361ed6a0a681ae6098cb02c9d3c0ab990f6dca0698"
+  },
+  "cpu_before_after_audits": [
+    {
+      "task": "1h_short_6h",
+      "model": "iTransformer",
+      "mode": "time_concat",
+      "station": "Bannerton Solar Park",
+      "before_after_exact": true,
+      "checks": {
+        "model": "NWPFusionBaseline",
+        "task": "1h_short_6h",
+        "splits": {
+          "train": {
+            "windows": 9057,
+            "sample_loss": 0.035961952060461044,
+            "input_shape": [
+              2,
+              24,
+              7
+            ],
+            "target_shape": [
+              2,
+              12,
+              7
+            ]
+          },
+          "val": {
+            "windows": 1313,
+            "sample_loss": 0.10706492513418198,
+            "input_shape": [
+              2,
+              24,
+              7
+            ],
+            "target_shape": [
+              2,
+              12,
+              7
+            ]
+          },
+          "test": {
+            "windows": 435,
+            "sample_loss": 0.11416102945804596,
+            "input_shape": [
+              2,
+              24,
+              7
+            ],
+            "target_shape": [
+              2,
+              12,
+              7
+            ]
+          }
+        },
+        "parameters": 6349408
+      }
+    },
+    {
+      "task": "15min_short_4h",
+      "model": "iTransformer",
+      "mode": "time_concat",
+      "station": "Bannerton Solar Park",
+      "before_after_exact": true,
+      "checks": {
+        "model": "NWPFusionBaseline",
+        "task": "15min_short_4h",
+        "splits": {
+          "train": {
+            "windows": 36325,
+            "sample_loss": 0.04262305796146393,
+            "input_shape": [
+              2,
+              64,
+              7
+            ],
+            "target_shape": [
+              2,
+              32,
+              7
+            ]
+          },
+          "val": {
+            "windows": 5257,
+            "sample_loss": 0.08269627392292023,
+            "input_shape": [
+              2,
+              64,
+              7
+            ],
+            "target_shape": [
+              2,
+              32,
+              7
+            ]
+          },
+          "test": {
+            "windows": 2615,
+            "sample_loss": 0.11166601628065109,
+            "input_shape": [
+              2,
+              64,
+              7
+            ],
+            "target_shape": [
+              2,
+              32,
+              7
+            ]
+          }
+        },
+        "all_test_origins_exact": true,
+        "parameters": 6421408
+      }
+    }
+  ]
+}

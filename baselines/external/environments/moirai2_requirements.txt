@@ -1,0 +1,7 @@
+# Use an isolated environment; observed versions, no upstream weights included.
+uni2ts==2.0.0
+torch==2.4.1
+numpy==1.26.4
+pandas==2.3.3
+gluonts==0.14.4
+huggingface-hub==0.34.4

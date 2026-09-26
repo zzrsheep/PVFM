@@ -1,0 +1,923 @@
+{
+  "model_parity": "verification/cleanup_parity.json",
+  "sampling_parity": "verification/cleanup_sampling_parity.json",
+  "synthetic_training_and_resume": "four-step continuous and two-plus-two resumed checkpoints exactly equal, including optimizer and RNG",
+  "ddp": "two CPU ranks, two synthetic optimization steps completed",
+  "example_evaluation": {
+    "windows": 180,
+    "stations": 3,
+    "seconds": 4.074228523299098,
+    "reference_max_abs_error": 0.0,
+    "quantile_grid": "common_q9",
+    "warning": "Small illustrative subset, not the paper-wide main table",
+    "selection": "evenly_spaced_test",
+    "device": "cpu"
+  },
+  "baseline_cpu_audits": [
+    {
+      "group": "cleanup_all_baselines",
+      "model": "FusionSFNoSpatial",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9144,
+          "sample_loss": 0.10671202093362808,
+          "input_shape": [
+            2,
+            6,
+            1
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.11718286573886871,
+          "input_shape": [
+            2,
+            6,
+            1
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 439,
+          "sample_loss": 0.15758736431598663,
+          "input_shape": [
+            2,
+            6,
+            1
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 3343698
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "DAGWrapper",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.1334526240825653,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.10794778168201447,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.12631937861442566,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 244229
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "GCGNetWrapper",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 1.6507656574249268,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.08940301835536957,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.1046023964881897,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 2864129
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "TiDEBenchmarkWrapper",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.07063636183738708,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.06955555826425552,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.1328706294298172,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 383647
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "TimeXerWrapper",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.051346149295568466,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.09045358002185822,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.10915800929069519,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 831286
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.11274639517068863,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.14088070392608643,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.2010081559419632,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 105996
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.05710882321000099,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.13140419125556946,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.17924757301807404,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 106216
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.03927456960082054,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.10348407179117203,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.11834599077701569,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 8437397
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.03919071704149246,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.09858690947294235,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.12073663622140884,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 8440151
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.040506958961486816,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.09800268709659576,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.11586454510688782,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6346462
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.035961952060461044,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.10706492513418198,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.11416102945804596,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6349408
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.32076331973075867,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.22127777338027954,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.2597756087779999,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6007788
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.36717018485069275,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.3207417130470276,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.3430086076259613,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6010542
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.05484600365161896,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.09953802078962326,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.11269337683916092,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6397150
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "NWPFusionBaseline",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9057,
+          "sample_loss": 0.04517267644405365,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.10029245167970657,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 435,
+          "sample_loss": 0.11966043710708618,
+          "input_shape": [
+            2,
+            24,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 6397024
+    },
+    {
+      "group": "cleanup_all_baselines",
+      "model": "Cross_Unet",
+      "task": "1h_short_6h",
+      "splits": {
+        "train": {
+          "windows": 9120,
+          "sample_loss": 0.5818350911140442,
+          "input_shape": [
+            2,
+            6,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "val": {
+          "windows": 1313,
+          "sample_loss": 0.3276231586933136,
+          "input_shape": [
+            2,
+            6,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        },
+        "test": {
+          "windows": 438,
+          "sample_loss": 0.38716602325439453,
+          "input_shape": [
+            2,
+            6,
+            7
+          ],
+          "target_shape": [
+            2,
+            12,
+            7
+          ]
+        }
+      },
+      "parameters": 7700422
+    },
+    {
+      "group": "cleanup_native_itf",
+      "model": "NWPFusionBaseline",
+      "task": "15min_short_4h",
+      "splits": {
+        "train": {
+          "windows": 36325,
+          "sample_loss": 0.04262305796146393,
+          "input_shape": [
+            2,
+            64,
+            7
+          ],
+          "target_shape": [
+            2,
+            32,
+            7
+          ]
+        },
+        "val": {
+          "windows": 5257,
+          "sample_loss": 0.08269627392292023,
+          "input_shape": [
+            2,
+            64,
+            7
+          ],
+          "target_shape": [
+            2,
+            32,
+            7
+          ]
+        },
+        "test": {
+          "windows": 2615,
+          "sample_loss": 0.11166601628065109,
+          "input_shape": [
+            2,
+            64,
+            7
+          ],
+          "target_shape": [
+            2,
+            32,
+            7
+          ]
+        }
+      },
+      "all_test_origins_exact": true,
+      "parameters": 6421408
+    },
+    {
+      "group": "cleanup_native_cf",
+      "model": "NWPFusionBaseline",
+      "task": "15min_short_6h",
+      "splits": {
+        "train": {
+          "windows": 36093,
+          "sample_loss": 0.3815349042415619,
+          "input_shape": [
+            2,
+            96,
+            7
+          ],
+          "target_shape": [
+            2,
+            48,
+            7
+          ]
+        },
+        "val": {
+          "windows": 5249,
+          "sample_loss": 0.19592832028865814,
+          "input_shape": [
+            2,
+            96,
+            7
+          ],
+          "target_shape": [
+            2,
+            48,
+            7
+          ]
+        },
+        "test": {
+          "windows": 2605,
+          "sample_loss": 0.21678034961223602,
+          "input_shape": [
+            2,
+            96,
+            7
+          ],
+          "target_shape": [
+            2,
+            48,
+            7
+          ]
+        }
+      },
+      "all_test_origins_exact": true,
+      "parameters": 6029796
+    }
+  ],
+  "baseline_scope": "one Australian site per selected task; not a rerun of every station/seed",
+  "baseline_python_files_before": 1600,
+  "baseline_python_files_after": 120
+}

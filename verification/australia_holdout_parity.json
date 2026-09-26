@@ -1,0 +1,517 @@
+{
+  "stations": 11,
+  "tasks": 5,
+  "checks": [
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "windows": 435,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "windows": 435,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "windows": 439,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "windows": 435,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "windows": 439,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "windows": 435,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "windows": 370,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "windows": 304,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "windows": 435,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "windows": 304,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C24_H6",
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "windows": 439,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "windows": 424,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "windows": 424,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "windows": 436,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "windows": 424,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "windows": 436,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "windows": 424,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "windows": 292,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "windows": 301,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "windows": 424,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "windows": 301,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C72_H24",
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "windows": 436,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "windows": 356,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "windows": 356,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "windows": 412,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "windows": 356,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "windows": 412,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "windows": 356,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "windows": 111,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "windows": 268,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "windows": 356,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "windows": 268,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "1h_C336_H168",
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "windows": 412,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "windows": 2615,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "windows": 2615,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "windows": 2632,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "windows": 2615,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "windows": 2632,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "windows": 2615,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "windows": 1967,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "windows": 1821,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "windows": 2615,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "windows": 1821,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C64_H16",
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "windows": 2632,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0017__Bannerton_Solar_Park",
+      "windows": 2605,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0021__Bomen_Solar_Farm",
+      "windows": 2605,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0031__Columboola_Solar_Farm",
+      "windows": 2630,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0040__Gannawarra_Solar_Farm",
+      "windows": 2605,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0048__Haughton_Solar_Farm_Stage_1",
+      "windows": 2630,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm",
+      "windows": 2605,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0073__Mugga_Lane_Solar_Park",
+      "windows": 1831,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0085__Stubbo_Solar_Farm_1",
+      "windows": 1819,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0095__Wemen_Solar_Farm",
+      "windows": 2605,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0100__Wollar_Solar_Farm",
+      "windows": 1819,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    },
+    {
+      "task": "15min_C96_H24",
+      "station_dir": "1_centralized/Australia/电站0-0101__Woolooga_Solar_Farm",
+      "windows": 2630,
+      "shared_all_region_arrays": true,
+      "model_input_fields": 10,
+      "checked_windows": "first/middle/last",
+      "original_model_vs_portable": "bitwise_equal_cpu"
+    }
+  ],
+  "split_audit": [
+    {
+      "resolution": "1h",
+      "training_stations": 722,
+      "australia_training_stations": 0,
+      "manifest_sha256": "635f635b8e3bdb4f0ad0ba382ef06edc8afa16cf4ded5562f4f8af356ab22b78"
+    },
+    {
+      "resolution": "15min",
+      "training_stations": 569,
+      "australia_training_stations": 0,
+      "manifest_sha256": "9214399af477f7f345583bb5f592969a1c6bb36cd5f34f34b9301a432d4c4bae"
+    }
+  ],
+  "source_weights_unchanged": true,
+  "all_exported_weight_tensors_identical": true
+}

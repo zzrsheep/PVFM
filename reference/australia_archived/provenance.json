@@ -1,0 +1,14 @@
+[
+  {
+    "source": "archive/source_ab8db1fad72cc15a",
+    "source_sha256": "07c22997f072f8785afcf057624b532f576e5d77774c68dcc1eb31947072509d",
+    "file": "reference/australia_archived/regional_baseline_q9_audit.csv",
+    "note": "Archived reference. Read origin_protocol/probability_grid/status; not a new reproduction result."
+  },
+  {
+    "source": "archive/source_b1d12690a45f306a",
+    "source_sha256": "d90dc3a43b583f4b48584e42310e4691fed9a0ebc8e84d77a6dd574ba1608872",
+    "file": "reference/australia_archived/region_holdout_all_models_1h_15min.csv",
+    "note": "Archived reference. Read origin_protocol/probability_grid/status; not a new reproduction result."
+  }
+]

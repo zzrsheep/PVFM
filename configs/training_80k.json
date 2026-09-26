@@ -1,0 +1,19 @@
+{
+  "train_steps": 80000,
+  "seed": 20260801,
+  "optimizer": "adam",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "betas": [0.9, 0.999],
+  "lradj": "wsd",
+  "min_lr": 0.000001,
+  "warmup_ratio": 0.0,
+  "warmup_steps": 5000,
+  "wsd_stable_steps": 59000,
+  "wsd_decay_steps": 16000,
+  "per_gpu_batch_size": 256,
+  "world_size": 4,
+  "fp16": true,
+  "objective": "masked_pinball_native_q11",
+  "grad_clip_norm": 0.0
+}

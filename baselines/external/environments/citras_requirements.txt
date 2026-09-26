@@ -1,0 +1,4 @@
+# Use an isolated environment; observed versions, no upstream weights included.
+git+https://github.com/hitachi-ais/citras-fm.git@a7f5648cbe54253c6008608f4c2026f41f178e67
+numpy==2.3.5
+pandas==2.3.3

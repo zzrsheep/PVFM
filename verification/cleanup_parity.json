@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "all_region": {
+      "windows_exact": 165,
+      "all_active_tensors_exact": true,
+      "training_loss_and_gradients_exact": true,
+      "forward_rng_exact": true,
+      "source_export_sha256": "2582c1855f70524b28b6fb04a1ee880d506eebff8eda0154ad4a93418cde008e",
+      "checkpoint_sha256": "f4ea2d7209e351de902c552abc6a9c1443301206d5b0e0fd6ee491683a54366a",
+      "active_parameters": 3879252
+    },
+    "australia_holdout": {
+      "windows_exact": 165,
+      "all_active_tensors_exact": true,
+      "training_loss_and_gradients_exact": true,
+      "forward_rng_exact": true,
+      "source_export_sha256": "6ef486b51b2c8bb6c122116005d64ba00b6f9255ae07cdc410d9bb8c91efd385",
+      "checkpoint_sha256": "e3314e029da8bf43ca24ce7f3f9372544d2d99fdee0f2eca95d1a89397c64e3c",
+      "active_parameters": 3879252
+    }
+  },
+  "removed_inactive_tensor_keys": [
+    "future_patch_tokenizer.time_proj.bias",
+    "future_patch_tokenizer.time_proj.weight",
+    "history_patch_tokenizer.time_proj.bias",
+    "history_patch_tokenizer.time_proj.weight",
+    "patch_head.bias",
+    "patch_head.weight"
+  ]
+}

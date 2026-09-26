@@ -1,0 +1,7 @@
+# Use an isolated environment; observed versions, no upstream weights included.
+tabpfn==8.0.8
+tabpfn-time-series==1.1.0
+fev==0.9.0
+datasets==4.8.5
+numpy==2.2.6
+pandas==2.3.3

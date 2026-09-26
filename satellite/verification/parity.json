@@ -1,0 +1,47 @@
+{
+  "source_checkpoint_sha256": "63905afd3f59d1b17287fba8756165985b2dda2711c7d3f393e0b49a71c5b440",
+  "source_training_step": 2500,
+  "removed_inactive_tensors": [
+    "backbone.future_patch_tokenizer.time_proj.bias",
+    "backbone.future_patch_tokenizer.time_proj.weight",
+    "backbone.history_patch_tokenizer.time_proj.bias",
+    "backbone.history_patch_tokenizer.time_proj.weight",
+    "backbone.patch_head.bias",
+    "backbone.patch_head.weight"
+  ],
+  "active_tensors_exact": true,
+  "backbone_parameters": 3879252,
+  "adapter_parameters": 621121,
+  "synthetic_checks": [
+    {
+      "seed": 1,
+      "windows": 2,
+      "max_abs_prediction_difference": 0.0
+    },
+    {
+      "seed": 2,
+      "windows": 2,
+      "max_abs_prediction_difference": 0.0
+    },
+    {
+      "seed": 3,
+      "windows": 2,
+      "max_abs_prediction_difference": 0.0
+    }
+  ],
+  "training_forward_and_adapter_gradients_exact": true,
+  "backbone_frozen": true,
+  "export_sha256": "6b26e9c816748307a9d2ef6efb5416880a6606990ef86bcacb03fb7806071fa8",
+  "real_data": {
+    "stations": 17,
+    "windows": 51,
+    "arms": [
+      "satellite_on",
+      "satellite_off"
+    ],
+    "maximum_absolute_prediction_difference": 0.0,
+    "device": "cpu",
+    "selection": "first/middle/last approved test window per station",
+    "raw_data_packaged": false
+  }
+}

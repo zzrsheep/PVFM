@@ -1,0 +1,45 @@
+kind,task_or_resolution,station,rows,file
+evaluation_windows,15min_C64_H16,Bannerton Solar Park,2615,eval_windows/15min_C64_H16/Bannerton_Solar_Park.csv
+evaluation_windows,15min_C64_H16,Bomen Solar Farm,2615,eval_windows/15min_C64_H16/Bomen_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Columboola Solar Farm,2632,eval_windows/15min_C64_H16/Columboola_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Gannawarra Solar Farm,2615,eval_windows/15min_C64_H16/Gannawarra_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Haughton Solar Farm Stage 1,2632,eval_windows/15min_C64_H16/Haughton_Solar_Farm_Stage_1.csv
+evaluation_windows,15min_C64_H16,Karadoc Solar Farm,2615,eval_windows/15min_C64_H16/Karadoc_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Mugga Lane Solar Park,1967,eval_windows/15min_C64_H16/Mugga_Lane_Solar_Park.csv
+evaluation_windows,15min_C64_H16,Stubbo Solar Farm 1,1821,eval_windows/15min_C64_H16/Stubbo_Solar_Farm_1.csv
+evaluation_windows,15min_C64_H16,Wemen Solar Farm,2615,eval_windows/15min_C64_H16/Wemen_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Wollar Solar Farm,1821,eval_windows/15min_C64_H16/Wollar_Solar_Farm.csv
+evaluation_windows,15min_C64_H16,Woolooga Solar Farm,2632,eval_windows/15min_C64_H16/Woolooga_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Bannerton Solar Park,2605,eval_windows/15min_C96_H24/Bannerton_Solar_Park.csv
+evaluation_windows,15min_C96_H24,Bomen Solar Farm,2605,eval_windows/15min_C96_H24/Bomen_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Columboola Solar Farm,2630,eval_windows/15min_C96_H24/Columboola_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Gannawarra Solar Farm,2605,eval_windows/15min_C96_H24/Gannawarra_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Haughton Solar Farm Stage 1,2630,eval_windows/15min_C96_H24/Haughton_Solar_Farm_Stage_1.csv
+evaluation_windows,15min_C96_H24,Karadoc Solar Farm,2605,eval_windows/15min_C96_H24/Karadoc_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Mugga Lane Solar Park,1831,eval_windows/15min_C96_H24/Mugga_Lane_Solar_Park.csv
+evaluation_windows,15min_C96_H24,Stubbo Solar Farm 1,1819,eval_windows/15min_C96_H24/Stubbo_Solar_Farm_1.csv
+evaluation_windows,15min_C96_H24,Wemen Solar Farm,2605,eval_windows/15min_C96_H24/Wemen_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Wollar Solar Farm,1819,eval_windows/15min_C96_H24/Wollar_Solar_Farm.csv
+evaluation_windows,15min_C96_H24,Woolooga Solar Farm,2630,eval_windows/15min_C96_H24/Woolooga_Solar_Farm.csv
+station_manifest,15min,Bannerton Solar Park,1,manifests/15min/Bannerton_Solar_Park.csv
+station_manifest,15min,Bomen Solar Farm,1,manifests/15min/Bomen_Solar_Farm.csv
+station_manifest,15min,Columboola Solar Farm,1,manifests/15min/Columboola_Solar_Farm.csv
+station_manifest,15min,Gannawarra Solar Farm,1,manifests/15min/Gannawarra_Solar_Farm.csv
+station_manifest,15min,Haughton Solar Farm Stage 1,1,manifests/15min/Haughton_Solar_Farm_Stage_1.csv
+station_manifest,15min,Karadoc Solar Farm,1,manifests/15min/Karadoc_Solar_Farm.csv
+station_manifest,15min,Mugga Lane Solar Park,1,manifests/15min/Mugga_Lane_Solar_Park.csv
+station_manifest,15min,Stubbo Solar Farm 1,1,manifests/15min/Stubbo_Solar_Farm_1.csv
+station_manifest,15min,Wemen Solar Farm,1,manifests/15min/Wemen_Solar_Farm.csv
+station_manifest,15min,Wollar Solar Farm,1,manifests/15min/Wollar_Solar_Farm.csv
+station_manifest,15min,Woolooga Solar Farm,1,manifests/15min/Woolooga_Solar_Farm.csv
+station_manifest,1h,Bannerton Solar Park,1,manifests/1h/Bannerton_Solar_Park.csv
+station_manifest,1h,Bomen Solar Farm,1,manifests/1h/Bomen_Solar_Farm.csv
+station_manifest,1h,Columboola Solar Farm,1,manifests/1h/Columboola_Solar_Farm.csv
+station_manifest,1h,Gannawarra Solar Farm,1,manifests/1h/Gannawarra_Solar_Farm.csv
+station_manifest,1h,Haughton Solar Farm Stage 1,1,manifests/1h/Haughton_Solar_Farm_Stage_1.csv
+station_manifest,1h,Karadoc Solar Farm,1,manifests/1h/Karadoc_Solar_Farm.csv
+station_manifest,1h,Mugga Lane Solar Park,1,manifests/1h/Mugga_Lane_Solar_Park.csv
+station_manifest,1h,Stubbo Solar Farm 1,1,manifests/1h/Stubbo_Solar_Farm_1.csv
+station_manifest,1h,Wemen Solar Farm,1,manifests/1h/Wemen_Solar_Farm.csv
+station_manifest,1h,Wollar Solar Farm,1,manifests/1h/Wollar_Solar_Farm.csv
+station_manifest,1h,Woolooga Solar Farm,1,manifests/1h/Woolooga_Solar_Farm.csv

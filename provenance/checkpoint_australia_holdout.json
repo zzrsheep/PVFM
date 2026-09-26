@@ -1,0 +1,23 @@
+{
+  "source": "archive/run_a74ad68b4b928d48",
+  "sha256": "1ca3a0e65724110aa91e791e99e2abc27a06bf0ff077b012a29499b93cb6b5d8",
+  "packaged_sha256": "e3314e029da8bf43ca24ce7f3f9372544d2d99fdee0f2eca95d1a89397c64e3c",
+  "trainable_parameters": 3879252,
+  "training_step": 80000,
+  "seed": 20260801,
+  "split_audit": [
+    {
+      "resolution": "1h",
+      "training_stations": 722,
+      "australia_training_stations": 0,
+      "manifest_sha256": "635f635b8e3bdb4f0ad0ba382ef06edc8afa16cf4ded5562f4f8af356ab22b78"
+    },
+    {
+      "resolution": "15min",
+      "training_stations": 569,
+      "australia_training_stations": 0,
+      "manifest_sha256": "9214399af477f7f345583bb5f592969a1c6bb36cd5f34f34b9301a432d4c4bae"
+    }
+  ],
+  "export": "Active tensor names and values unchanged; inactive calendar and scalar heads removed; inference-only export."
+}

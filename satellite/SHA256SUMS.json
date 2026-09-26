@@ -1,0 +1,33 @@
+{
+  "satellite": {
+    "DATA.md": "c44ea5ffaec66b77c003fbf7aff35c674de30c93ed6b0c9e6165d1c492cecd93",
+    "README.md": "e9953fac92f5b8c4ba5584e122b3935a04df10e1da8a0c68117780fd7c0517ba",
+    "__init__.py": "226cf8ec6b9b2578a60e74a051e636696585cecce2cc8dc56cf74eb42ee8f7ea",
+    "alignment.py": "37517048beb2462944f94aa784b866c6e410741d8c36986d0ec1febbdea172e8",
+    "anchors.py": "3ff33942d4bafbef9492ba697ce74d8bd6a713e5dae0f7ef51bd89b5e3467bd1",
+    "attention.py": "5f2073719a65aca593aedaaafd14b38eeba2aabe6c12e923fbaea1923d4b86e9",
+    "backbone.py": "6d46a678a44fc8e8c2910c74e439f0d251e1e63f2bd660fa2d174d2ef1dbadaa",
+    "checkpoint.py": "2e028c5533bea6fbd7f46758049249747ac467c297016603f2a8df678b58f399",
+    "checkpoints/satellite_forecaster.pt": "6b26e9c816748307a9d2ef6efb5416880a6606990ef86bcacb03fb7806071fa8",
+    "config.json": "628b3141367f29c9da4e06a68a48a825be81ae972718eff85bdb0aed203c23b6",
+    "coordinates.py": "7e32b2e35310c44d7fd7ea07f70d1bd31dfa982663e7db589cf84c90b9ef5a5e",
+    "data.py": "f20054dd6771c836c37ff70cc1d625fe0d70de7ab5d8aefc2930af9da070c841",
+    "encoder.py": "a689532f52bf88598c75fcd52c37b82c24406e32150e3a86e54c31a3ec0919d2",
+    "evaluate.py": "004b63466236de633a5f7fca54f0067ec8308b3df6f53e6bc1d75d0711f959cc",
+    "fusion.py": "1fe27c4b7803827219fe775c5aaecbce139574ea002114138744828971a56337",
+    "metrics.py": "91aaa570b1214d444626be908c450da85ac2447387980dcad987b130ef97bbe8",
+    "model.py": "22c2900e49defc05bd6417e436c66831488b6df5cd1ebdee25a485da56ddd3ac",
+    "reference_metrics.json": "9f3e03d30485b9760235646323b7172cb954d5d1e7be975f15932f530b93455f",
+    "tests/test_satellite.py": "79db7f3990cda2a6f16591cc19ee1711ab736a4fed0bdd6336fc80d9722090cf",
+    "train.py": "b4af6edbdbccbdd33315c042726bd902c8eba10dd5d4c98c4f71796c86c72db8",
+    "verification/checks.json": "69b0207274d69be94fb51cc34f0febfb567feb4fefcc159fceee5ba72e9374a7",
+    "verification/parity.json": "6d5a18c3e74cee6f9914f72629aa2bfbb48a742b6d42cab4f494abf2c8c3ef67",
+    "verify.py": "f31176a2fa397b2fb1037cc5180d28e6bf3cadc92647c2fda46cc5152a2cfa88"
+  },
+  "shared_pvfm": {
+    "pvfm/__init__.py": "76c0a81596c541d7dae2910f27dde7821ec9716bcc4e7674413a7fb1499647ac",
+    "pvfm/model.py": "43bdaaee5d3a4e727e9f6b060dc36027356a443a6879a7e9590b3821b610ddad",
+    "pvfm/layers.py": "05d9405b89f92b292209b4935a5e9e955bc36b57a155f2315f21043996f4c097",
+    "pvfm/blocks.py": "7ec4610cab682ec5a2bf9dcf6bef7ec8379cf9e92d8a9f8b2a1d20a23d2d1804"
+  }
+}

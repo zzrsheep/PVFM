@@ -1,0 +1,64 @@
+{
+  "chronos2": {
+    "repo": "amazon/chronos-2",
+    "revision": null,
+    "expected_files": {
+      "config.json": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
+      "model.safetensors": "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+    },
+    "model_card": "https://huggingface.co/amazon/chronos-2",
+    "bundled_weights": false,
+    "revision_note": "Snapshot revision not recovered; check expected hashes where provided, do not claim a frozen upstream main."
+  },
+  "citras": {
+    "repo": "hitachi-nlp/citras-fm",
+    "revision": "8633940936e1a401aa9d97d92cc0784fd6129ca6",
+    "expected_files": {
+      "config.json": "a32cf70eb2bf74da0c46197bc18b9740936288e14267713682d15fb0d81f72f9",
+      "model.safetensors": "ae493249b2c1859f7998ed98fb16d99717beeae152ed645dedd5c23be001e8db"
+    },
+    "model_card": "https://huggingface.co/hitachi-nlp/citras-fm",
+    "bundled_weights": false,
+    "revision_note": "Pinned snapshot"
+  },
+  "moirai2": {
+    "repo": "Salesforce/moirai-2.0-R-small",
+    "revision": "30f43ff08c8494f4943ae1521e9d4e94a0fbb389",
+    "expected_files": {
+      "config.json": "6b74b03c8ec199fabc352c0203465958142ca468183da68549652734836f853d",
+      "model.safetensors": "fb5652a3db8ea572606221b7cb1e77bb8962b168e4d4cc752cf31ceb04074669"
+    },
+    "model_card": "https://huggingface.co/Salesforce/moirai-2.0-R-small",
+    "bundled_weights": false,
+    "revision_note": "Pinned snapshot"
+  },
+  "timesfm3": {
+    "repo": "google/timesfm-3.0-pytorch",
+    "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "expected_files": {
+      "config.json": "ff17bbc07b792c5a904cca265b8468579d736a4fe84981da25eb871b0a125bc6",
+      "model.safetensors": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+    },
+    "model_card": "https://huggingface.co/google/timesfm-3.0-pytorch",
+    "bundled_weights": false,
+    "revision_note": "Pinned snapshot"
+  },
+  "tirex2": {
+    "repo": "NX-AI/TiRex-2-fevbench",
+    "revision": null,
+    "model_card": "https://huggingface.co/NX-AI/TiRex-2-fevbench",
+    "bundled_weights": false,
+    "revision_note": "Snapshot revision not recovered; check expected hashes where provided, do not claim a frozen upstream main."
+  },
+  "tabpfn3": {
+    "repo": "Prior-Labs/tabpfn_3",
+    "revision": "24a16a89d245878b846555110985634aa2e656d7",
+    "filename": "tabpfn-v3-regressor-v3_20260506_timeseries.ckpt",
+    "expected_files": {
+      "tabpfn-v3-regressor-v3_20260506_timeseries.ckpt": "48ca82019fec74f08e15d56a157bbe728d6ec25c221f2ff2d4fd22fd4e09ec6e"
+    },
+    "model_card": "https://huggingface.co/Prior-Labs/tabpfn_3",
+    "bundled_weights": false,
+    "revision_note": "Pinned snapshot"
+  }
+}

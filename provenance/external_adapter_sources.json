@@ -1,0 +1,156 @@
+{
+  "baselines/external/runtime/foundation/tsfm_zero_shot/chronos2_covariate.py": {
+    "source": "foundation/tsfm_zero_shot/chronos2_covariate.py",
+    "source_sha256": "89a4157ef29208e2bd13008404b9d4fdf47fccbb90accfd03bab5406c4a58902",
+    "symbols": [
+      "Any",
+      "build_chronos2_input",
+      "np",
+      "quantile_forecasts",
+      "quantile_index",
+      "validate_quantile_levels"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/probabilistic_outputs.py": {
+    "source": "foundation/tsfm_zero_shot/probabilistic_outputs.py",
+    "source_sha256": "0f71a7e675322c1c5c9ed8b3707d8117d3f0e8c7572c221ff74d14910239b88d",
+    "symbols": [
+      "DEFAULT_QUANTILE_LEVELS",
+      "Iterable",
+      "np",
+      "quantile_index",
+      "quantile_key",
+      "validate_quantile_levels"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/citras_fm_covariate.py": {
+    "source": "foundation/tsfm_zero_shot/citras_fm_covariate.py",
+    "source_sha256": "69c9f64c1713162b3e883edfcdcc56bd90b24218640dd6e6e194040e246a9e85",
+    "symbols": [
+      "Any",
+      "CITRAS_DEFAULT_QUANTILE_LEVELS",
+      "DEFAULT_QUANTILE_LEVELS",
+      "Iterable",
+      "_as_array",
+      "build_citras_input",
+      "model_quantile_levels",
+      "np",
+      "quantile_forecasts",
+      "quantile_index",
+      "validate_quantile_levels"
+    ]
+  },
+  "baselines/external/runtime/scripts/eval_citras_fm_v2_balanced_zero_shot.py": {
+    "source": "scripts/eval_citras_fm_v2_balanced_zero_shot.py",
+    "source_sha256": "29fa325a59bf28d7e41d17bf27645351c880a1aa4061f31f4d916e7d37effbd9",
+    "symbols": [
+      "_forecast_batch",
+      "_load_model",
+      "argparse",
+      "torch"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/moirai2_covariate.py": {
+    "source": "foundation/tsfm_zero_shot/moirai2_covariate.py",
+    "source_sha256": "5c02782d2af842f846693c8bad30d360836967c2f0afb2ecd73493e053048c04",
+    "symbols": [
+      "Any",
+      "ITEM_ID_COLUMN",
+      "TARGET_COLUMN",
+      "TIMESTAMP_COLUMN",
+      "_validated_arrays",
+      "build_moirai2_dataset",
+      "build_moirai2_frame",
+      "forecast_quantiles",
+      "np",
+      "pd",
+      "validate_quantile_levels"
+    ]
+  },
+  "baselines/external/runtime/scripts/eval_moirai2_v2_balanced_zero_shot.py": {
+    "source": "scripts/eval_moirai2_v2_balanced_zero_shot.py",
+    "source_sha256": "59cd57a044f77909a0f9aefc32d1ad7bc3fab0e560842b197520b33f415df097",
+    "symbols": [
+      "_make_predictor"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/timesfm3_covariate.py": {
+    "source": "foundation/tsfm_zero_shot/timesfm3_covariate.py",
+    "source_sha256": "f529e9d56036fdbe8f579d29752ce8a3f6014aa2a358a5023c0b97136b797b77",
+    "symbols": [
+      "Any",
+      "DEFAULT_QUANTILE_LEVELS",
+      "Iterable",
+      "TIMESFM3_DEFAULT_QUANTILE_LEVELS",
+      "_as_array",
+      "_output_quantiles",
+      "build_timesfm3_input",
+      "model_quantile_levels",
+      "np",
+      "quantile_forecasts",
+      "quantile_index",
+      "validate_quantile_levels"
+    ]
+  },
+  "baselines/external/runtime/scripts/eval_timesfm3_v2_balanced_zero_shot.py": {
+    "source": "scripts/eval_timesfm3_v2_balanced_zero_shot.py",
+    "source_sha256": "62994c0ed92d5b51b25752b41b499050b4c0a406f68526c8031d8b735e03e3a4",
+    "symbols": [
+      "Any",
+      "_load_timesfm3",
+      "_predict_batch",
+      "argparse",
+      "importlib",
+      "inspect",
+      "np"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/fev_frozen_windows.py": {
+    "source": "foundation/tsfm_zero_shot/fev_frozen_windows.py",
+    "source_sha256": "eea1cdf8d9e356fb8a498ece0c298e57ce5399063b3b9a646b431d0674b595cb",
+    "symbols": [
+      "Any",
+      "FrozenWindowTask",
+      "make_fev_window",
+      "np",
+      "pd"
+    ]
+  },
+  "baselines/external/runtime/foundation/tsfm_zero_shot/fev_batched_windows.py": {
+    "source": "foundation/tsfm_zero_shot/fev_batched_windows.py",
+    "source_sha256": "4186ddcb28f66a0b05d61e8e8639e1f15ccbb446cad199fb517aaa06d790a015",
+    "symbols": [
+      "Any",
+      "Sequence",
+      "make_batched_fev_window",
+      "np",
+      "pd"
+    ]
+  },
+  "baselines/external/runtime/scripts/eval_fev_strict_zero_shot_shard.py": {
+    "source": "scripts/eval_fev_strict_zero_shot_shard.py",
+    "source_sha256": "fbe478875f385b31196f5e492d6eed70be92760811527377841bd5f58dc52a51",
+    "symbols": [
+      "Any",
+      "FrozenWindowTask",
+      "QUANTILE_LEVELS",
+      "_extract_forecast_column",
+      "extract_forecasts",
+      "np"
+    ]
+  },
+  "baselines/external/runtime/scripts/eval_tabpfn_ts3_v2_balanced_optimized_shard.py": {
+    "source": "scripts/eval_tabpfn_ts3_v2_balanced_optimized_shard.py",
+    "source_sha256": "5814b89beb143d92cdab13b8f2566e81f8dbea171d4f641b97fdcf8205f27d68",
+    "symbols": [
+      "Any",
+      "FrozenWindowTask",
+      "QUANTILE_LEVELS",
+      "extract_forecasts",
+      "extract_prediction",
+      "np",
+      "quantile_key",
+      "validate_quantile_levels"
+    ]
+  }
+}

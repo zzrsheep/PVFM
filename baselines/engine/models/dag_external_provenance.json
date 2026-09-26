@@ -1,0 +1,23 @@
+{
+  "source_root": "archive/source_acb939c7f63bd9ce",
+  "original_source_root": "archive/source_b146a73295e92c11",
+  "policy": "Vendored model files are copied from the external source without edits; PVFM adapters only translate tensors and names.",
+  "sources": {
+    "DAGWrapper": {
+      "module": "ts_benchmark.baselines.dag.models.dag_model.DAGModel",
+      "sha256": "d26c3d861f10faeb6a48ea7ffe9064ec385e3152e584eca8cc96862d408dec79"
+    },
+    "GCGNetWrapper": {
+      "module": "ts_benchmark.baselines.GCGNet.models.gcgnet_model.GCGNetModel",
+      "sha256": "61ac164c8cb134512a85a7a51b40c31e0850f5558e3d24c651fa3e6ffbb1b8ba"
+    },
+    "TimeXerWrapper": {
+      "module": "ts_benchmark.baselines.timexer.model.timexer_model.timexer_model",
+      "sha256": "3eccd0e184467cbc9b0c5db4868acdc581d3d8bdb0442777a7e1ff4b07826a07"
+    },
+    "TiDEBenchmarkWrapper": {
+      "module": "ts_benchmark.baselines.time_series_library.models.TiDE.TiDE",
+      "sha256": "f6097046640636eee52f370191ce9f397f8c77ba3ea8879ebc881edc47d5be02"
+    }
+  }
+}

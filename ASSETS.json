@@ -1,0 +1,1227 @@
+{
+  "format_version": 1,
+  "assets": [
+    {
+      "file": "checkpoints/pvfm_3_9m_80k_q11.pt",
+      "bytes": 15661962,
+      "sha256": "f4ea2d7209e351de902c552abc6a9c1443301206d5b0e0fd6ee491683a54366a"
+    },
+    {
+      "file": "checkpoints/pvfm_3_9m_australia_holdout_80k_q11.pt",
+      "bytes": 15669902,
+      "sha256": "e3314e029da8bf43ca24ce7f3f9372544d2d99fdee0f2eca95d1a89397c64e3c"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/README.md",
+      "bytes": 1550,
+      "sha256": "8e6ef85c6f9e5c8d6094bcf8e600cc55afc26d5107d16bec276bd2134ab7fb73"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear.csv",
+      "bytes": 1084513,
+      "sha256": "beeff931da781e40ebab698baa7c7f410b0b73b46be9ec16bb4216b62c8584e9"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/open_meteo_weather.csv",
+      "bytes": 1543738,
+      "sha256": "26f91663e7233b837e934421e32591d562f66eef87c6a45f8a5cb1cc352560aa"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/other_data.json",
+      "bytes": 1448,
+      "sha256": "68ec0c0deaf8c639e34af795131285fcbc602bc3f738a8e0f1ebae638cc7b942"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/pv_semantic_repaired_1h.csv",
+      "bytes": 339727,
+      "sha256": "fdb090108c2e224408d8fa7827f45854910587ae100fff9fdafb7e66027856fb"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/README.md",
+      "bytes": 1530,
+      "sha256": "0566f64bbcb6759ab5502414a912f28b3ef344a11dd57877a6f026420f6a93e0"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1072294,
+      "sha256": "a9d83638b63954341c7d7e403665db0530fb1e409dd5db889820569e33455259"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1524843,
+      "sha256": "69e74023bc247b702ed2bd543296dd50fa3422904505dd7c147369eb2123fdf5"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/other_data.json",
+      "bytes": 1440,
+      "sha256": "36a2aa38a46e4d508defd3779d5dfbf348927434063d8220234500efe203a89c"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 345100,
+      "sha256": "39bd20e1b51e4051410c6aa6e183247470410f6c37c15396a275f323368b5cb0"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/README.md",
+      "bytes": 1555,
+      "sha256": "4461d3b4bfb144ad8425dff1131851aaa8d161f6dcd2b0cf988e71cef82060b4"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1073653,
+      "sha256": "f340c0fc9b4a0b8c445dd9a8bb304cc1f54a0b1a1c8db394b45fbce479bc610c"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "838bd9202c3f709918d55af3f02a1b3f5b0332cb2f5e73b29fda05828e67a381"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1533010,
+      "sha256": "388bfad1a22948f382b7694c9361e242cdc34c08f00b322cb72b4be1eb76b96e"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/other_data.json",
+      "bytes": 1457,
+      "sha256": "0a0674abadb6ac5a8bafb9425e9587caeccbad19fbe58395ba13a7bc46f59b17"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 347916,
+      "sha256": "9c57e83466fca3ad1a74e3b204b6b7f1ceb7188e62e2e564756d79a9afa00182"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/README.md",
+      "bytes": 1555,
+      "sha256": "24f6b72e841c762f189c0c3ce913d97a4303fd45c74500c4c8c8eb62efe0ebec"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1067810,
+      "sha256": "aa1e2c1b87e35b750dbb0776e119f9eadbc6b1b2f00732473b5bad91028cd8c7"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1543260,
+      "sha256": "37aedb88cebc24749bf9bde534bc9e950cc82a30cf3ba517cdf099ea1df86b86"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/other_data.json",
+      "bytes": 1455,
+      "sha256": "2761b01452ca0f1321a8b6962124ace8a28cbb83aa9a24e75ab79671086d2aa2"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 338866,
+      "sha256": "bd00305ee3460f2e597c660903ce1569f452654d54659886e1e48209a90b7690"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/README.md",
+      "bytes": 1585,
+      "sha256": "eb19adfcb5acd6382aa811d5ee85c3fc69bafdefdd250d7b24fdbb35128a2aab"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear.csv",
+      "bytes": 1077659,
+      "sha256": "a86bcaddde6a1e8c91084f1a53a8f051c9fc63b588fa784523f1cc8718b9950c"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "838bd9202c3f709918d55af3f02a1b3f5b0332cb2f5e73b29fda05828e67a381"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/open_meteo_weather.csv",
+      "bytes": 1576738,
+      "sha256": "6689a95b75604049d0c494a9c682ca4c513c71d7ce51f73ef2a454db24265c73"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/other_data.json",
+      "bytes": 1521,
+      "sha256": "eedfdeaee4942ce3817897a7c2dde2e8dc322922b7dae65c9dcae0517df4795e"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/pv_semantic_repaired_1h.csv",
+      "bytes": 345693,
+      "sha256": "e0b8a203575f2dfa252620d168176f5974ae74c7257fbe99334b95f469ea0c3d"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/README.md",
+      "bytes": 1540,
+      "sha256": "3eb8a9e34719d3840e375a2edd1e9fd6c2c11786fde3bd7a19ce1d010169e7ae"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1084676,
+      "sha256": "1dc5918ec9090d471fe95fd57145bb732c6c597e19947752ab83586ca182dc35"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1548171,
+      "sha256": "e8122a8d274ce701eef66f80a606e0f6c3cddf453518dfd208a07a05022fd2f2"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "3897aebc39ada3f57c1bee826678a30f5c3077dfe2ac02af1223c37200f7061b"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 340167,
+      "sha256": "ce9ab095d3602265079a97836a951fd696687edbe5718d3f75f39de30746a60c"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/README.md",
+      "bytes": 1555,
+      "sha256": "4a1a1f631aec3055f58c9d40f427b9c53f5fb8cbba5e6af49722bf6eddd40f2a"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear.csv",
+      "bytes": 1056823,
+      "sha256": "47c64e2c9fd28240e7a88c7fac69a4f001a1a8000637ed6ccb2622cd0a99382d"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/open_meteo_weather.csv",
+      "bytes": 1540620,
+      "sha256": "0d0d4739401fca0d79e940bbd23f9c968f6b415c00781568c23119f4fceadede"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/other_data.json",
+      "bytes": 1459,
+      "sha256": "071adf8a05b1861f5ae43ea05d7f712968d60b2c7d76302d1de66dca66678cdb"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/pv_semantic_repaired_1h.csv",
+      "bytes": 342382,
+      "sha256": "c8465dc8e217ccf8fdf097bf1b32b0eda48972e8ecef4db6e3901c114224bd16"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/README.md",
+      "bytes": 1545,
+      "sha256": "3136f58fda2b81dd3ea029b8fdfd0775b38ffd6cd710dc0c18fc547ca2bffa4a"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear.csv",
+      "bytes": 734230,
+      "sha256": "46d8ec58a2afe2bfc465eba3dc8a4d43f2dc692a2acda8c58fe52860e3699f90"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear_info.json",
+      "bytes": 514,
+      "sha256": "a4d138d3e023de1ac3291195f081cfa9fa8807b65eab6c8e43cb71fbd4da73d5"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/open_meteo_weather.csv",
+      "bytes": 1093431,
+      "sha256": "0e1e8238d7f05dd34ff2531136ac38e3b1e64c76ba36c01d027a14e21a6ea76e"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/other_data.json",
+      "bytes": 1462,
+      "sha256": "341d5bcb61c6168acbd9a208f7edaedc4f0c0ead1aa44fa29124ad08c24bddc1"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/pv_semantic_repaired_1h.csv",
+      "bytes": 243596,
+      "sha256": "13e6f000b8f0397c250852a4c2f873e50d610b64d877bb82e68ba075822ff067"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/README.md",
+      "bytes": 1530,
+      "sha256": "79aef94a3da5b4edf5758ebc17bbfc21b495934985ec833e492c45243dc47d0d"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1072802,
+      "sha256": "c4ec3984a0e11efb746bb107cf1dc99f9d2324951b7ba4b2f197a7ee1a43a0ad"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "1191528ff52fd23a7c29cc3d9314fec3fee4a384efe3a8dba20aecffe5c12c72"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1544578,
+      "sha256": "962290257cfc51bdb551ccd8f0f07ee142fcc2abd7f08ce5126cda24cceff591"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "d2454e8ed96e341da2505e5d6c50ac2941874281a993b4bf4c6ac50f6b817262"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 339713,
+      "sha256": "c8ccbfb9039c305f38d95f8c695cd90be75be9c7aa3116d81b4f8c89376ca309"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/README.md",
+      "bytes": 1535,
+      "sha256": "fd8473082eeb2d6efca199fb507b3596f8af53ecc6b38452af135d3f0082c293"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 733456,
+      "sha256": "a5578194805553fbbd92b982c062ce2430dd63b70bddb5a1b40d92ba2756453f"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 514,
+      "sha256": "a4d138d3e023de1ac3291195f081cfa9fa8807b65eab6c8e43cb71fbd4da73d5"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1059321,
+      "sha256": "12b1f1d44ffc08fbb09fb8e50bc26d5d910a8e40e41acc6e85650558d0ee2156"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/other_data.json",
+      "bytes": 1462,
+      "sha256": "6a4fa0e63bd69a1a4009ad4205aac54e220f53b771b8add815dda114bd01895f"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 236460,
+      "sha256": "ae1cf4497911fa4652064b78b5b4fb51d9943cfafe11c231148616efc4464def"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/README.md",
+      "bytes": 1545,
+      "sha256": "c99d86e6de73b9d14fe81fcb82d70c21622413e907e641e67830db6463d42924"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1074354,
+      "sha256": "9702f5044ab0c208cdb2e9fe14b87ad8aec28472e1c5e42bfc6a7524a4509ceb"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear_info.json",
+      "bytes": 516,
+      "sha256": "838bd9202c3f709918d55af3f02a1b3f5b0332cb2f5e73b29fda05828e67a381"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1591855,
+      "sha256": "a2e7ad317adc555aa2264be96b0bd56479d5de1cc96088cde161184569c2c594"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/other_data.json",
+      "bytes": 1466,
+      "sha256": "d92015548c0634558207755cb0928c8ebf679d9e82e8ba4783a649ec58be6bb3"
+    },
+    {
+      "file": "datasets/australia/3d0cd486b9ce/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 341194,
+      "sha256": "be654fcde4ef91a587b95cb3bae3ead5531daf2cc862f0ccf2ae15794c92fa0e"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7041750,
+      "sha256": "874e44b701ac5e77c40907d8351a7888d20400923c24d9f755795524fed68642"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7021256,
+      "sha256": "3d4699ac8ac1386061ae21028b2281b92bb3571655774031e0e66e924155cc48"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/other_data.json",
+      "bytes": 1448,
+      "sha256": "68ec0c0deaf8c639e34af795131285fcbc602bc3f738a8e0f1ebae638cc7b942"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1358528,
+      "sha256": "b06e7e76665f755564a6f19ac961409e4dedc6526e453001ebb64163263c2c06"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6959882,
+      "sha256": "db66c41d5e6389c7516dd14e88b08e077b142a037b1c86a42812d7a4c7b5d18e"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6968224,
+      "sha256": "7070cdfc4cd341abc930c2816e855420bb61108f85519ed127ef874f9cedbe78"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/other_data.json",
+      "bytes": 1440,
+      "sha256": "36a2aa38a46e4d508defd3779d5dfbf348927434063d8220234500efe203a89c"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1506826,
+      "sha256": "a907baef7bc994a1b428640167e9db9b2c90d0714252c3f9c8597ea58eff4f7e"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7018238,
+      "sha256": "0873643768b468f1936f9e1975c9843157b0d062cd9e344881974c0aec1f6add"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6997771,
+      "sha256": "5d7ec734f769b3bf0317f387c6a729e3f65d0252253ffb28a990bce5873e8c21"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/other_data.json",
+      "bytes": 1457,
+      "sha256": "0a0674abadb6ac5a8bafb9425e9587caeccbad19fbe58395ba13a7bc46f59b17"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1462319,
+      "sha256": "184bec5dd142572f425b39027bc50f71680ff89feaabc77947f9eea82e7a6787"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7040044,
+      "sha256": "837f9414c77c5e8c92827bc88e29ba2d01776ffbc353beec74e532341d815a92"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7028611,
+      "sha256": "dd783896bc5154934f17e737367c136d764602b5efd98b22208cfbdd323d184c"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/other_data.json",
+      "bytes": 1455,
+      "sha256": "2761b01452ca0f1321a8b6962124ace8a28cbb83aa9a24e75ab79671086d2aa2"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1355454,
+      "sha256": "01dc3a522f99cc4b50f61f7b51640e5e8f1e639e8c1ac39de0743e609da9f821"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6994019,
+      "sha256": "b43b306cd3c31225328978d711423beb05774218d2fbee840cba4cb5ef2004a3"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6985818,
+      "sha256": "692abd1ecf50a0176536a23c75e61218f78ada453f7af81701d2a1f1d8fc3bf3"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/other_data.json",
+      "bytes": 1521,
+      "sha256": "eedfdeaee4942ce3817897a7c2dde2e8dc322922b7dae65c9dcae0517df4795e"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/pv_native15min_nanpad.csv",
+      "bytes": 1494959,
+      "sha256": "1983f7a6b8f78f25bd7411d8523a031f8b70e77ff3ca11141a74c88d1d14be5b"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7074052,
+      "sha256": "bef9c3dd600de23ac18fc0080709bf0c835765aaef43ada26fc093323ef71599"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7080384,
+      "sha256": "f8b62c099c61366d0be277299fd4b70d29f1f5544e221accff3e4aca81f53f71"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "3897aebc39ada3f57c1bee826678a30f5c3077dfe2ac02af1223c37200f7061b"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1360497,
+      "sha256": "73cb8bcb7604debd41a77ce7984907c32b36fbe0096ecbdf8c7f752fa7d495de"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6953388,
+      "sha256": "d177729a8400ff84d4722e148d3bae6431298bc2fd0311ca89fc8e7de20103d7"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6934084,
+      "sha256": "c0ced9d10d8d20ab1cf941ae16f993ac3d2b69cfc6a527e0bcc42ec5b120e050"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/other_data.json",
+      "bytes": 1459,
+      "sha256": "071adf8a05b1861f5ae43ea05d7f712968d60b2c7d76302d1de66dca66678cdb"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1399172,
+      "sha256": "be87baa4d2138efca918ebd602568ee4fe2eef5adff2372e97be49f81591d0d2"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4851107,
+      "sha256": "f81281adc354255783628b8f68732c561c08d2b10bd553e9669a8408a9ff96e2"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4838417,
+      "sha256": "91dec5c29f0b6d55d81a1175577414a4633306300170e99140585f428d2ed9c6"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/other_data.json",
+      "bytes": 1462,
+      "sha256": "341d5bcb61c6168acbd9a208f7edaedc4f0c0ead1aa44fa29124ad08c24bddc1"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/pv_native15min_nanpad.csv",
+      "bytes": 1322413,
+      "sha256": "b4ab8c4382d7c0ae879a6138a8969cfd4311eefe92f56a2569fdae4ae90a5a2d"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7057013,
+      "sha256": "48c4434407d0f2daac5e7f5b53a2e111bf8f8a8b97dcd9b014755683dea656f1"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7014065,
+      "sha256": "5921d8e63931e3c77c25ba93a17c4429fc27ff98fc43d0c3c5f197994fa177a0"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "d2454e8ed96e341da2505e5d6c50ac2941874281a993b4bf4c6ac50f6b817262"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1358304,
+      "sha256": "12c7e46052a3fe413282b513a2fb064e6581e348baf392e17ac8a28856966305"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4825747,
+      "sha256": "85a2bec4434e85b3f4489275ad74b57d99927a8928f90b67f625b353020b2d91"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4819762,
+      "sha256": "a0fd5a2aaa192f2003648763fa7bbd68e5d33eb1e805c2a3b967fb8d35f42152"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/other_data.json",
+      "bytes": 1462,
+      "sha256": "6a4fa0e63bd69a1a4009ad4205aac54e220f53b771b8add815dda114bd01895f"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1004437,
+      "sha256": "ae40b45c90105e64ab98c365560f7e5d87a3a062f32febb4a830f1e48de24272"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7045502,
+      "sha256": "6b64231cca8a8df9d0c6fdd2c1c86d09da6055aa7d6e16c535b4dcb3cf393c4c"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7019413,
+      "sha256": "9f307fef79ebaa6ae1cafb7fc9c5c6425dedc7704b4e546a5b040aec5764af13"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/other_data.json",
+      "bytes": 1466,
+      "sha256": "d92015548c0634558207755cb0928c8ebf679d9e82e8ba4783a649ec58be6bb3"
+    },
+    {
+      "file": "datasets/australia/9f943b323148/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1387039,
+      "sha256": "0c81e56fccc8faa56d0ca9f98e344b3c0c540fb63fbdb6e0ef2a710ca1117cd3"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7041750,
+      "sha256": "874e44b701ac5e77c40907d8351a7888d20400923c24d9f755795524fed68642"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7021256,
+      "sha256": "3d4699ac8ac1386061ae21028b2281b92bb3571655774031e0e66e924155cc48"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/other_data.json",
+      "bytes": 1448,
+      "sha256": "68ec0c0deaf8c639e34af795131285fcbc602bc3f738a8e0f1ebae638cc7b942"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1358528,
+      "sha256": "b06e7e76665f755564a6f19ac961409e4dedc6526e453001ebb64163263c2c06"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6959882,
+      "sha256": "db66c41d5e6389c7516dd14e88b08e077b142a037b1c86a42812d7a4c7b5d18e"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6968224,
+      "sha256": "7070cdfc4cd341abc930c2816e855420bb61108f85519ed127ef874f9cedbe78"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/other_data.json",
+      "bytes": 1440,
+      "sha256": "36a2aa38a46e4d508defd3779d5dfbf348927434063d8220234500efe203a89c"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1506826,
+      "sha256": "a907baef7bc994a1b428640167e9db9b2c90d0714252c3f9c8597ea58eff4f7e"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7018238,
+      "sha256": "0873643768b468f1936f9e1975c9843157b0d062cd9e344881974c0aec1f6add"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6997771,
+      "sha256": "5d7ec734f769b3bf0317f387c6a729e3f65d0252253ffb28a990bce5873e8c21"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/other_data.json",
+      "bytes": 1457,
+      "sha256": "0a0674abadb6ac5a8bafb9425e9587caeccbad19fbe58395ba13a7bc46f59b17"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1462319,
+      "sha256": "184bec5dd142572f425b39027bc50f71680ff89feaabc77947f9eea82e7a6787"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7040044,
+      "sha256": "837f9414c77c5e8c92827bc88e29ba2d01776ffbc353beec74e532341d815a92"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7028611,
+      "sha256": "dd783896bc5154934f17e737367c136d764602b5efd98b22208cfbdd323d184c"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/other_data.json",
+      "bytes": 1455,
+      "sha256": "2761b01452ca0f1321a8b6962124ace8a28cbb83aa9a24e75ab79671086d2aa2"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1355454,
+      "sha256": "01dc3a522f99cc4b50f61f7b51640e5e8f1e639e8c1ac39de0743e609da9f821"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6994019,
+      "sha256": "b43b306cd3c31225328978d711423beb05774218d2fbee840cba4cb5ef2004a3"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6985818,
+      "sha256": "692abd1ecf50a0176536a23c75e61218f78ada453f7af81701d2a1f1d8fc3bf3"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/other_data.json",
+      "bytes": 1521,
+      "sha256": "eedfdeaee4942ce3817897a7c2dde2e8dc322922b7dae65c9dcae0517df4795e"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/pv_native15min_nanpad.csv",
+      "bytes": 1494959,
+      "sha256": "1983f7a6b8f78f25bd7411d8523a031f8b70e77ff3ca11141a74c88d1d14be5b"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7074052,
+      "sha256": "bef9c3dd600de23ac18fc0080709bf0c835765aaef43ada26fc093323ef71599"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7080384,
+      "sha256": "f8b62c099c61366d0be277299fd4b70d29f1f5544e221accff3e4aca81f53f71"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "3897aebc39ada3f57c1bee826678a30f5c3077dfe2ac02af1223c37200f7061b"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1360497,
+      "sha256": "73cb8bcb7604debd41a77ce7984907c32b36fbe0096ecbdf8c7f752fa7d495de"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6953388,
+      "sha256": "d177729a8400ff84d4722e148d3bae6431298bc2fd0311ca89fc8e7de20103d7"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6934084,
+      "sha256": "c0ced9d10d8d20ab1cf941ae16f993ac3d2b69cfc6a527e0bcc42ec5b120e050"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/other_data.json",
+      "bytes": 1459,
+      "sha256": "071adf8a05b1861f5ae43ea05d7f712968d60b2c7d76302d1de66dca66678cdb"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1399172,
+      "sha256": "be87baa4d2138efca918ebd602568ee4fe2eef5adff2372e97be49f81591d0d2"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4851107,
+      "sha256": "f81281adc354255783628b8f68732c561c08d2b10bd553e9669a8408a9ff96e2"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4838417,
+      "sha256": "91dec5c29f0b6d55d81a1175577414a4633306300170e99140585f428d2ed9c6"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/other_data.json",
+      "bytes": 1462,
+      "sha256": "341d5bcb61c6168acbd9a208f7edaedc4f0c0ead1aa44fa29124ad08c24bddc1"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/pv_native15min_nanpad.csv",
+      "bytes": 1322413,
+      "sha256": "b4ab8c4382d7c0ae879a6138a8969cfd4311eefe92f56a2569fdae4ae90a5a2d"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7057013,
+      "sha256": "48c4434407d0f2daac5e7f5b53a2e111bf8f8a8b97dcd9b014755683dea656f1"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7014065,
+      "sha256": "5921d8e63931e3c77c25ba93a17c4429fc27ff98fc43d0c3c5f197994fa177a0"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "d2454e8ed96e341da2505e5d6c50ac2941874281a993b4bf4c6ac50f6b817262"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1358304,
+      "sha256": "12c7e46052a3fe413282b513a2fb064e6581e348baf392e17ac8a28856966305"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4825747,
+      "sha256": "85a2bec4434e85b3f4489275ad74b57d99927a8928f90b67f625b353020b2d91"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4819762,
+      "sha256": "a0fd5a2aaa192f2003648763fa7bbd68e5d33eb1e805c2a3b967fb8d35f42152"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/other_data.json",
+      "bytes": 1462,
+      "sha256": "6a4fa0e63bd69a1a4009ad4205aac54e220f53b771b8add815dda114bd01895f"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1004437,
+      "sha256": "ae40b45c90105e64ab98c365560f7e5d87a3a062f32febb4a830f1e48de24272"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7045502,
+      "sha256": "6b64231cca8a8df9d0c6fdd2c1c86d09da6055aa7d6e16c535b4dcb3cf393c4c"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7019413,
+      "sha256": "9f307fef79ebaa6ae1cafb7fc9c5c6425dedc7704b4e546a5b040aec5764af13"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/other_data.json",
+      "bytes": 1466,
+      "sha256": "d92015548c0634558207755cb0928c8ebf679d9e82e8ba4783a649ec58be6bb3"
+    },
+    {
+      "file": "datasets/australia/dceb3082b0cb/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1387039,
+      "sha256": "0c81e56fccc8faa56d0ca9f98e344b3c0c540fb63fbdb6e0ef2a710ca1117cd3"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear.csv",
+      "bytes": 1084513,
+      "sha256": "beeff931da781e40ebab698baa7c7f410b0b73b46be9ec16bb4216b62c8584e9"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/open_meteo_weather.csv",
+      "bytes": 1543738,
+      "sha256": "26f91663e7233b837e934421e32591d562f66eef87c6a45f8a5cb1cc352560aa"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/other_data.json",
+      "bytes": 1448,
+      "sha256": "68ec0c0deaf8c639e34af795131285fcbc602bc3f738a8e0f1ebae638cc7b942"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/pv_semantic_repaired_1h.csv",
+      "bytes": 339727,
+      "sha256": "fdb090108c2e224408d8fa7827f45854910587ae100fff9fdafb7e66027856fb"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1072294,
+      "sha256": "a9d83638b63954341c7d7e403665db0530fb1e409dd5db889820569e33455259"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1524843,
+      "sha256": "69e74023bc247b702ed2bd543296dd50fa3422904505dd7c147369eb2123fdf5"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/other_data.json",
+      "bytes": 1440,
+      "sha256": "36a2aa38a46e4d508defd3779d5dfbf348927434063d8220234500efe203a89c"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 345100,
+      "sha256": "39bd20e1b51e4051410c6aa6e183247470410f6c37c15396a275f323368b5cb0"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1073653,
+      "sha256": "f340c0fc9b4a0b8c445dd9a8bb304cc1f54a0b1a1c8db394b45fbce479bc610c"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1533010,
+      "sha256": "388bfad1a22948f382b7694c9361e242cdc34c08f00b322cb72b4be1eb76b96e"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/other_data.json",
+      "bytes": 1457,
+      "sha256": "0a0674abadb6ac5a8bafb9425e9587caeccbad19fbe58395ba13a7bc46f59b17"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 347916,
+      "sha256": "9c57e83466fca3ad1a74e3b204b6b7f1ceb7188e62e2e564756d79a9afa00182"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1067810,
+      "sha256": "aa1e2c1b87e35b750dbb0776e119f9eadbc6b1b2f00732473b5bad91028cd8c7"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1543260,
+      "sha256": "37aedb88cebc24749bf9bde534bc9e950cc82a30cf3ba517cdf099ea1df86b86"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/other_data.json",
+      "bytes": 1455,
+      "sha256": "2761b01452ca0f1321a8b6962124ace8a28cbb83aa9a24e75ab79671086d2aa2"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 338866,
+      "sha256": "bd00305ee3460f2e597c660903ce1569f452654d54659886e1e48209a90b7690"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear.csv",
+      "bytes": 1077659,
+      "sha256": "a86bcaddde6a1e8c91084f1a53a8f051c9fc63b588fa784523f1cc8718b9950c"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/open_meteo_weather.csv",
+      "bytes": 1576738,
+      "sha256": "6689a95b75604049d0c494a9c682ca4c513c71d7ce51f73ef2a454db24265c73"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/other_data.json",
+      "bytes": 1521,
+      "sha256": "eedfdeaee4942ce3817897a7c2dde2e8dc322922b7dae65c9dcae0517df4795e"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/pv_semantic_repaired_1h.csv",
+      "bytes": 345693,
+      "sha256": "e0b8a203575f2dfa252620d168176f5974ae74c7257fbe99334b95f469ea0c3d"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1084676,
+      "sha256": "1dc5918ec9090d471fe95fd57145bb732c6c597e19947752ab83586ca182dc35"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1548171,
+      "sha256": "e8122a8d274ce701eef66f80a606e0f6c3cddf453518dfd208a07a05022fd2f2"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "3897aebc39ada3f57c1bee826678a30f5c3077dfe2ac02af1223c37200f7061b"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 340167,
+      "sha256": "ce9ab095d3602265079a97836a951fd696687edbe5718d3f75f39de30746a60c"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear.csv",
+      "bytes": 1056823,
+      "sha256": "47c64e2c9fd28240e7a88c7fac69a4f001a1a8000637ed6ccb2622cd0a99382d"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/open_meteo_weather.csv",
+      "bytes": 1540620,
+      "sha256": "0d0d4739401fca0d79e940bbd23f9c968f6b415c00781568c23119f4fceadede"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/other_data.json",
+      "bytes": 1459,
+      "sha256": "071adf8a05b1861f5ae43ea05d7f712968d60b2c7d76302d1de66dca66678cdb"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/pv_semantic_repaired_1h.csv",
+      "bytes": 342382,
+      "sha256": "c8465dc8e217ccf8fdf097bf1b32b0eda48972e8ecef4db6e3901c114224bd16"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear.csv",
+      "bytes": 734230,
+      "sha256": "46d8ec58a2afe2bfc465eba3dc8a4d43f2dc692a2acda8c58fe52860e3699f90"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/open_meteo_weather.csv",
+      "bytes": 1093431,
+      "sha256": "0e1e8238d7f05dd34ff2531136ac38e3b1e64c76ba36c01d027a14e21a6ea76e"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/other_data.json",
+      "bytes": 1462,
+      "sha256": "341d5bcb61c6168acbd9a208f7edaedc4f0c0ead1aa44fa29124ad08c24bddc1"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/pv_semantic_repaired_1h.csv",
+      "bytes": 243596,
+      "sha256": "13e6f000b8f0397c250852a4c2f873e50d610b64d877bb82e68ba075822ff067"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1072802,
+      "sha256": "c4ec3984a0e11efb746bb107cf1dc99f9d2324951b7ba4b2f197a7ee1a43a0ad"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1544578,
+      "sha256": "962290257cfc51bdb551ccd8f0f07ee142fcc2abd7f08ce5126cda24cceff591"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "d2454e8ed96e341da2505e5d6c50ac2941874281a993b4bf4c6ac50f6b817262"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 339713,
+      "sha256": "c8ccbfb9039c305f38d95f8c695cd90be75be9c7aa3116d81b4f8c89376ca309"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 733456,
+      "sha256": "a5578194805553fbbd92b982c062ce2430dd63b70bddb5a1b40d92ba2756453f"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1059321,
+      "sha256": "12b1f1d44ffc08fbb09fb8e50bc26d5d910a8e40e41acc6e85650558d0ee2156"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/other_data.json",
+      "bytes": 1462,
+      "sha256": "6a4fa0e63bd69a1a4009ad4205aac54e220f53b771b8add815dda114bd01895f"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 236460,
+      "sha256": "ae1cf4497911fa4652064b78b5b4fb51d9943cfafe11c231148616efc4464def"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear.csv",
+      "bytes": 1074354,
+      "sha256": "9702f5044ab0c208cdb2e9fe14b87ad8aec28472e1c5e42bfc6a7524a4509ceb"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/open_meteo_weather.csv",
+      "bytes": 1591855,
+      "sha256": "a2e7ad317adc555aa2264be96b0bd56479d5de1cc96088cde161184569c2c594"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/other_data.json",
+      "bytes": 1466,
+      "sha256": "d92015548c0634558207755cb0928c8ebf679d9e82e8ba4783a649ec58be6bb3"
+    },
+    {
+      "file": "datasets/australia/e5cd8d192733/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/pv_semantic_repaired_1h.csv",
+      "bytes": 341194,
+      "sha256": "be654fcde4ef91a587b95cb3bae3ead5531daf2cc862f0ccf2ae15794c92fa0e"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7041750,
+      "sha256": "874e44b701ac5e77c40907d8351a7888d20400923c24d9f755795524fed68642"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7021256,
+      "sha256": "3d4699ac8ac1386061ae21028b2281b92bb3571655774031e0e66e924155cc48"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/other_data.json",
+      "bytes": 1448,
+      "sha256": "68ec0c0deaf8c639e34af795131285fcbc602bc3f738a8e0f1ebae638cc7b942"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0017__Bannerton_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1358528,
+      "sha256": "b06e7e76665f755564a6f19ac961409e4dedc6526e453001ebb64163263c2c06"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6959882,
+      "sha256": "db66c41d5e6389c7516dd14e88b08e077b142a037b1c86a42812d7a4c7b5d18e"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6968224,
+      "sha256": "7070cdfc4cd341abc930c2816e855420bb61108f85519ed127ef874f9cedbe78"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/other_data.json",
+      "bytes": 1440,
+      "sha256": "36a2aa38a46e4d508defd3779d5dfbf348927434063d8220234500efe203a89c"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0021__Bomen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1506826,
+      "sha256": "a907baef7bc994a1b428640167e9db9b2c90d0714252c3f9c8597ea58eff4f7e"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7018238,
+      "sha256": "0873643768b468f1936f9e1975c9843157b0d062cd9e344881974c0aec1f6add"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6997771,
+      "sha256": "5d7ec734f769b3bf0317f387c6a729e3f65d0252253ffb28a990bce5873e8c21"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/other_data.json",
+      "bytes": 1457,
+      "sha256": "0a0674abadb6ac5a8bafb9425e9587caeccbad19fbe58395ba13a7bc46f59b17"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0031__Columboola_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1462319,
+      "sha256": "184bec5dd142572f425b39027bc50f71680ff89feaabc77947f9eea82e7a6787"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7040044,
+      "sha256": "837f9414c77c5e8c92827bc88e29ba2d01776ffbc353beec74e532341d815a92"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7028611,
+      "sha256": "dd783896bc5154934f17e737367c136d764602b5efd98b22208cfbdd323d184c"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/other_data.json",
+      "bytes": 1455,
+      "sha256": "2761b01452ca0f1321a8b6962124ace8a28cbb83aa9a24e75ab79671086d2aa2"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0040__Gannawarra_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1355454,
+      "sha256": "01dc3a522f99cc4b50f61f7b51640e5e8f1e639e8c1ac39de0743e609da9f821"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6994019,
+      "sha256": "b43b306cd3c31225328978d711423beb05774218d2fbee840cba4cb5ef2004a3"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6985818,
+      "sha256": "692abd1ecf50a0176536a23c75e61218f78ada453f7af81701d2a1f1d8fc3bf3"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/other_data.json",
+      "bytes": 1521,
+      "sha256": "eedfdeaee4942ce3817897a7c2dde2e8dc322922b7dae65c9dcae0517df4795e"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0048__Haughton_Solar_Farm_Stage_1/pv_native15min_nanpad.csv",
+      "bytes": 1494959,
+      "sha256": "1983f7a6b8f78f25bd7411d8523a031f8b70e77ff3ca11141a74c88d1d14be5b"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7074052,
+      "sha256": "bef9c3dd600de23ac18fc0080709bf0c835765aaef43ada26fc093323ef71599"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7080384,
+      "sha256": "f8b62c099c61366d0be277299fd4b70d29f1f5544e221accff3e4aca81f53f71"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "3897aebc39ada3f57c1bee826678a30f5c3077dfe2ac02af1223c37200f7061b"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0053__Karadoc_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1360497,
+      "sha256": "73cb8bcb7604debd41a77ce7984907c32b36fbe0096ecbdf8c7f752fa7d495de"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 6953388,
+      "sha256": "d177729a8400ff84d4722e148d3bae6431298bc2fd0311ca89fc8e7de20103d7"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 6934084,
+      "sha256": "c0ced9d10d8d20ab1cf941ae16f993ac3d2b69cfc6a527e0bcc42ec5b120e050"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/other_data.json",
+      "bytes": 1459,
+      "sha256": "071adf8a05b1861f5ae43ea05d7f712968d60b2c7d76302d1de66dca66678cdb"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0073__Mugga_Lane_Solar_Park/pv_native15min_nanpad.csv",
+      "bytes": 1399172,
+      "sha256": "be87baa4d2138efca918ebd602568ee4fe2eef5adff2372e97be49f81591d0d2"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4851107,
+      "sha256": "f81281adc354255783628b8f68732c561c08d2b10bd553e9669a8408a9ff96e2"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4838417,
+      "sha256": "91dec5c29f0b6d55d81a1175577414a4633306300170e99140585f428d2ed9c6"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/other_data.json",
+      "bytes": 1462,
+      "sha256": "341d5bcb61c6168acbd9a208f7edaedc4f0c0ead1aa44fa29124ad08c24bddc1"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0085__Stubbo_Solar_Farm_1/pv_native15min_nanpad.csv",
+      "bytes": 1322413,
+      "sha256": "b4ab8c4382d7c0ae879a6138a8969cfd4311eefe92f56a2569fdae4ae90a5a2d"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7057013,
+      "sha256": "48c4434407d0f2daac5e7f5b53a2e111bf8f8a8b97dcd9b014755683dea656f1"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7014065,
+      "sha256": "5921d8e63931e3c77c25ba93a17c4429fc27ff98fc43d0c3c5f197994fa177a0"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/other_data.json",
+      "bytes": 1459,
+      "sha256": "d2454e8ed96e341da2505e5d6c50ac2941874281a993b4bf4c6ac50f6b817262"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0095__Wemen_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1358304,
+      "sha256": "12c7e46052a3fe413282b513a2fb064e6581e348baf392e17ac8a28856966305"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 4825747,
+      "sha256": "85a2bec4434e85b3f4489275ad74b57d99927a8928f90b67f625b353020b2d91"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 4819762,
+      "sha256": "a0fd5a2aaa192f2003648763fa7bbd68e5d33eb1e805c2a3b967fb8d35f42152"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/other_data.json",
+      "bytes": 1462,
+      "sha256": "6a4fa0e63bd69a1a4009ad4205aac54e220f53b771b8add815dda114bd01895f"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0100__Wollar_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1004437,
+      "sha256": "ae40b45c90105e64ab98c365560f7e5d87a3a062f32febb4a830f1e48de24272"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/future_nwp_1h_linear_15min_nanpad.csv",
+      "bytes": 7045502,
+      "sha256": "6b64231cca8a8df9d0c6fdd2c1c86d09da6055aa7d6e16c535b4dcb3cf393c4c"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/open_meteo_weather_15min_nanpad.csv",
+      "bytes": 7019413,
+      "sha256": "9f307fef79ebaa6ae1cafb7fc9c5c6425dedc7704b4e546a5b040aec5764af13"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/other_data.json",
+      "bytes": 1466,
+      "sha256": "d92015548c0634558207755cb0928c8ebf679d9e82e8ba4783a649ec58be6bb3"
+    },
+    {
+      "file": "datasets/australia/ed9e746ac531/1_centralized/Australia/\u7535\u7ad90-0101__Woolooga_Solar_Farm/pv_native15min_nanpad.csv",
+      "bytes": 1387039,
+      "sha256": "0c81e56fccc8faa56d0ca9f98e344b3c0c540fb63fbdb6e0ef2a710ca1117cd3"
+    }
+  ],
+  "total_bytes": 634042362,
+  "note": "Included locally, excluded from normal Git tracking; no hosted download URL configured."
+}

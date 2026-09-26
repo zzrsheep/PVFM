@@ -1,0 +1,20 @@
+{
+  "fixture": "deterministic synthetic two-resolution fixture; not the private pretraining corpus",
+  "before_after_exact": true,
+  "traces": [
+    {
+      "rank": 0,
+      "batch_count": 500,
+      "descriptors_and_batches_sha256": "5be15c6b902211126b32b6f045742d660b15944162272d5c8e6b5ba5c9408121",
+      "shape_sha256": "d70172fae56931d357e7eb56d9a72b97dda7d4cd5083c316be7518014783f1ce"
+    },
+    {
+      "rank": 1,
+      "batch_count": 500,
+      "descriptors_and_batches_sha256": "83e051fb067043576b0de8ddec776dca8443ac7dafffb8ef4ac52e65a75c2505",
+      "shape_sha256": "d70172fae56931d357e7eb56d9a72b97dda7d4cd5083c316be7518014783f1ce"
+    }
+  ],
+  "pool_fingerprint": "b69b260d8bdb2a6a3b8a9965dbe5d5fec97c5d321e8276af616d5ff4eb49e59a",
+  "sampler_fingerprint": "65454de4209d29e2b785a2ad5d9c6cffe147652f050be33d7ec875a526097257"
+}

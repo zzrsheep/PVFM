@@ -1,0 +1,14 @@
+{
+  "all_region": {
+    "checkpoint": "checkpoints/pvfm_3_9m_80k_q11.pt",
+    "checkpoint_sha256": "f4ea2d7209e351de902c552abc6a9c1443301206d5b0e0fd6ee491683a54366a",
+    "manifest": "datasets/australia_evaluation/manifest.json",
+    "scope": "Unseen stations; other Australia sites were in pretraining"
+  },
+  "australia_holdout": {
+    "checkpoint": "checkpoints/pvfm_3_9m_australia_holdout_80k_q11.pt",
+    "checkpoint_sha256": "e3314e029da8bf43ca24ce7f3f9372544d2d99fdee0f2eca95d1a89397c64e3c",
+    "manifest": "datasets/australia_holdout_evaluation/manifest.json",
+    "scope": "All Australia sites excluded from pretraining"
+  }
+}

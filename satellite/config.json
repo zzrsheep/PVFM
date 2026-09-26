@@ -1,0 +1,69 @@
+{
+  "format": "pvfm_satellite_v1",
+  "backbone_config": {
+    "hidden_dim": 128,
+    "n_heads": 8,
+    "n_layers": 6,
+    "future_joint_decoder_layers": 6,
+    "dropout": 0.1,
+    "fixed_seq_len": 672,
+    "max_pred_len": 168,
+    "patch_len": 12,
+    "patch_stride": 6,
+    "future_patch_len": 12,
+    "future_patch_stride": 6
+  },
+  "satellite_config": {
+    "image_channels": 4,
+    "image_height": 64,
+    "image_width": 64,
+    "image_patch_size": 8,
+    "satellite_dim": 128,
+    "spatial_layers": 1,
+    "temporal_layers": 1,
+    "encoder_n_heads": 4,
+    "fusion_n_heads": 4,
+    "dropout": 0.0,
+    "channel_mean": [
+      0.0963630050278989,
+      0.08400040555766972,
+      0.07065065204950427,
+      0.08335847404336513
+    ],
+    "channel_std": [
+      0.09859897706826584,
+      0.09080173995244807,
+      0.08552202205231117,
+      0.09767288081737349
+    ],
+    "gate_hidden_dim": 128,
+    "initial_gate_bias": -2.0,
+    "spatial_rope_max_frequency": 10.0
+  },
+  "adaptation_step": 2500,
+  "protocol": {
+    "resolution_minutes": 60,
+    "context_steps": 16,
+    "horizon_steps": 4,
+    "target_transform": "capacity_factor",
+    "historical_weather": "masked",
+    "future_weather": "six_nwp_variables",
+    "prediction": "q50",
+    "training_objective": "masked_q50_mse",
+    "time_feature_schema": "minute_hour_weekday_day_dayofyear_v1"
+  },
+  "recipe": {
+    "train_steps": 5000,
+    "learning_rate": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "batch_size": 32,
+    "seed": 20260912,
+    "fp16": true,
+    "val_interval": 500,
+    "max_val_batches": 0,
+    "world_size": 2
+  },
+  "best_validation_mse": 0.006214062622763912
+}

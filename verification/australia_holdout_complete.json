@@ -1,0 +1,15 @@
+{
+  "stations": 11,
+  "tasks": 5,
+  "station_task_cells": 55,
+  "inference": "float32 CUDA, batch32",
+  "max_abs_metric_difference": {
+    "R2": 6.660108908818074e-09,
+    "MAE": 2.817454991532742e-09,
+    "RMSE": 2.497243106747149e-09,
+    "CRPS": 1.8009610885938443e-09,
+    "AQL": 9.087120986239761e-10
+  },
+  "tolerance": 2e-06,
+  "passed": true
+}

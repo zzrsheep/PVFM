@@ -1,0 +1,14 @@
+{
+  "description": "Shared implementation with minimal frozen experiment compatibility overrides.",
+  "protocols": {
+    "protocol_01": {
+      "override_files": 0
+    },
+    "protocol_02": {
+      "override_files": 1
+    },
+    "protocol_03": {
+      "override_files": 3
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source": "archive/run_2f0b0ca142f12ab2",
+  "sha256": "332fbeb9003f1e1fa959f84b28b2aded33f4c1afb0d475bca0212af3df6652ed",
+  "packaged_sha256": "f4ea2d7209e351de902c552abc6a9c1443301206d5b0e0fd6ee491683a54366a",
+  "trainable_parameters": 3879252,
+  "export": "Active tensor names and values unchanged; inactive calendar and scalar heads removed; inference-only export."
+}

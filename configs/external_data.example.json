@@ -1,0 +1,8 @@
+{
+  "role": "pretrain_train",
+  "binary_cache_registry": "/absolute/path/to/your/multires_registry.json",
+  "manifest_path": "/absolute/path/to/your/seen_train.csv",
+  "pool_dir": "/absolute/path/to/pvfm_reproducible/prepared/pool",
+  "quality_dir": "/absolute/path/to/pvfm_reproducible/prepared/quality",
+  "region_profile": "/absolute/path/to/pvfm_reproducible/prepared/profile/profile.json"
+}

@@ -1,0 +1,2 @@
+collection,topology_type,region,source_region,station_id,station_name,station_dir,pv_file,time_col,target_col,granularity,lat,lon,source_type,original_station_dir,station_key,official_region,native_resolution
+organized_by_topology_region_ascii_standardized,1_centralized,Australia,Australia,电站0-0053,Karadoc Solar Farm,1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm,pv_native15min_nanpad.csv,datetime,power,15min,-34.4145,142.2524,native15min_nanpad_cache,1_centralized/Australia/电站0-0053__Karadoc_Solar_Farm,1489dec5d9dfe3b5571b,Australia,5min

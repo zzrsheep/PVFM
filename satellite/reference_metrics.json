@@ -1,0 +1,29 @@
+{
+  "cohort": "unseen",
+  "split": "test",
+  "processed_samples": 8554,
+  "satellite_frame_coverage": 0.9894493804068272,
+  "station_equal": {
+    "on": {
+      "station_count": 17,
+      "station_valid_points": 34216,
+      "mae": 0.03847768378315114,
+      "rmse": 0.08222470211861028,
+      "r2": 0.7526746693981029
+    },
+    "off": {
+      "station_count": 17,
+      "station_valid_points": 34216,
+      "mae": 0.038548051188105725,
+      "rmse": 0.08268114032067399,
+      "r2": 0.741104758064273
+    }
+  },
+  "provenance": "Archived original full test evaluation, not rerun in this packaging task.",
+  "checkpoint_tensor_match_to_export_source": true,
+  "task": {
+    "resolution_minutes": 60,
+    "context_hours": 16,
+    "horizon_hours": 4
+  }
+}

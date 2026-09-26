@@ -1,0 +1,71 @@
+{
+  "source_repository": "https://github.com/MAZiqing/FusionSF",
+  "source_checkout": "archive/source_a850cf72f83ae8cd",
+  "source_git_revision": "unavailable_source_checkout_has_no_git_metadata",
+  "source_files_sha256": {
+    "src/models/fusionSF_3modal.py": "9acd5e3ef4633e9bc01db6724926ae15e17f7a68fd81896d5bd3bf13515ffe3d",
+    "src/models/modules/attention_modules.py": "2c089e3fd3553dd2f5918d6cdd9656278af66631b5154bfd60929bc9c3061b49",
+    "src/models/modules/positional_encoding.py": "de6e0050df1dd67c64118d7b98c88abe647f15d63bb15b2404d8d16f643c03df"
+  },
+  "retained_official_modules": [
+    "Attention",
+    "PreNorm",
+    "FeedForward",
+    "Transformer",
+    "Cyclical_embedding",
+    "ts_embedding",
+    "guide_embedding",
+    "ts_encoder",
+    "guide_encoder",
+    "ts_enctodec",
+    "temporal_transformer",
+    "ts_mask_token",
+    "mlp_heads",
+    "quantile_masker",
+    "ts_vq"
+  ],
+  "removed_satellite_only_modules": [
+    "ctx input",
+    "to_patch_embedding",
+    "AxialRotaryEmbedding",
+    "ctx_encoder",
+    "CrossTransformer mixer",
+    "ctx_mask_token",
+    "ctx_vq",
+    "context masking"
+  ],
+  "official_release_defaults_source": "configs/pl_module/fusionsf_3modal.yaml (the values Hydra actually trains with), NOT the FusionSF3M.__init__ signature defaults, which the release configs always override",
+  "official_release_defaults": {
+    "dim": 64,
+    "depth": 4,
+    "heads": 4,
+    "dim_head": 64,
+    "mlp_ratio": 4,
+    "dropout": 0.3,
+    "decoder_dim": 128,
+    "decoder_depth": 4,
+    "decoder_heads": 6,
+    "decoder_dim_head": 128,
+    "num_mlp_heads": 9,
+    "vq_in_ts": false
+  },
+  "signature_defaults_not_used_by_release": {
+    "note": "Recorded only to document why they must not be copied. An earlier revision of this adapter mistakenly used num_mlp_heads=1 from here, which made the trailing ReLU in the single output head a single point of failure and collapsed predictions to a constant 0.",
+    "dim": 128,
+    "depth": 4,
+    "heads": 4,
+    "dropout": 0.0,
+    "num_mlp_heads": 1
+  },
+  "intentional_deviations_from_release_config": [],
+  "historical_configuration_notes": [
+    {
+      "field": "vq_in_ts",
+      "release_value": false,
+      "previous_pvfm_default": true,
+      "current_pvfm_default": false,
+      "corrected_on": "2026-09-13",
+      "reason": "The adapter and launch defaults now disable PV-branch VQ to match the official release. Existing VQ-enabled results are unchanged; --enable_fusionsf_vq_in_ts or FUSIONSF_VQ_IN_TS=1 explicitly reproduces that legacy configuration."
+    }
+  ]
+}
